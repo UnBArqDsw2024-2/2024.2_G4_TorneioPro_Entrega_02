@@ -9,7 +9,7 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 | Nome           |Descrição                     |    Representação                           |
 |----------------|------------------------------|--------------------------------------------|
-| Ator           | Entidade externa que interage com o sistema, podendo ser um usuário ou outro sistema.            | ![Ator](../../Assets/ator.jpeg) |
+| Ator           | Entidade externa que interage com o sistema, podendo ser um usuário ou outro sistema. No nosso caso, utilizamos quatro atores, organizador, treinador, jogador e o próprio sistema. | ![Ator](../../Assets/ator.jpeg) |
 |Retângulo | Representação do sistema por inteiro |![Retângulo](../../Assets/retangulo.jpeg)|
 |Seta| Representações das interações entre atores e usos no sistema|![Setas](../../Assets/setas.jpeg)|
 |Elipse|Representação dos casos de uso. Um caso de uso mostra uma funcionalidade ou ação a ser realizada dentro do sistema.|![Elipse](../../Assets/elipse.jpeg)|
@@ -24,27 +24,6 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 <font size="2"><p style="text-align: center">Tabela x: </p></font>
 
 | UC01 |  Buscar Veiculo |
-| -: | :- |
-| **Atores** | Usuário |
-| **Funcionalidade** | O usuário pode fazer uma busca pelo veiculo desaparecido |
-| **Pré-condições** | Conexão com a internet, Login no sistema |
-| **Ação** | O usuário busca um veiculo  |
-| **Fluxo básico** | <ul><li> O usuário acessa o aplicativo. </br> <ul><li> O usuário acessa a aba veiculo. </br> <ul><li> O usuário faz a busca pelo veículo </br> |
-| **Fluxos alternativos** | <ul><li> O usuário acessa o aplicativo </br> <ul><li> O usuário acessa a aba veiculo. </br> <ul><li> O app solicita a localização do usuário </br> <ul><li> O usuário seleciona "Sim"</br>  |
-| **Fluxos de exceção** | <ul><li> O usuário acessa o aplicativo </br> <ul><li> O usuário acessa a aba veiculo. </br> <ul><li>  O usuário faz a busca pelo veículo. </br> <ul><li> O aplicativo apresenta "Dados Incorretos" </br>  |
-| **Pós-condições** |POS01. O usuário tem acesso aos dados sobre o veiculo. |
-| **Data da criação** | 23/11/2024 |
-| **Rastreabilidade** | |
-
-<font size="2"><p style="text-align: center">Autor: [Italo Bruno](https://github.com/ItaloBrunoM)  .</p></font>
-
-</center>
-
-<center>
-
-<font size="2"><p style="text-align: center">Tabela x: </p></font>
-
-| UC01 |  Gerenciar partidas |
 | -: | :- |
 | **Atores** | Usuário |
 | **Funcionalidade** | O usuário pode fazer uma busca pelo veiculo desaparecido |
