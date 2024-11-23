@@ -40,6 +40,27 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 </center>
 
+<center>
+
+<font size="2"><p style="text-align: center">Tabela x: </p></font>
+
+| UC02 |  Gerenciar Jogador |
+| -: | :- |
+| **Atores** | Treinador |
+| **Funcionalidade** | O treinador de um time pode gerenciar os jogadores do seu time |
+| **Pré-condições** | Conexão com a internet, Login no sistema com o perfil de treinador, Treinador deve estar associado a pelo menos um time no sistema |
+| **Ação** | "O treinador gerencia seus jogadores, podendo visualizar, cadastrar, editar ou excluir informações relacionadas a eles."  |
+| **Fluxo básico** | <ul><li> O usuário acessa o aplicativo como treinador. </br> <ul><li> O treinador acessa seu time. </br> <ul><li> O sistema exibe a lista de jogadores associados ao time e informações do time. </br> <ul><li> O treinador pode realizar uma das ações disponíveis no gerenciamento de jogadores: Visualizar, Adicionar, Editar e Excluir </br>|
+| **Fluxos alternativos** | <ul><li> O treinador tenta acessar um time, mas ainda não possui times cadastrados </br> <ul><li> O sistema exibe uma mensagem informando que ele deve primeiro criar um time."</br>  |
+| **Fluxos de exceção** | <ul><li> O treinador busca um jogador pelo nome, mas o jogador não está na lista</br> <ul><li>O sistema exibe uma mensagem indicando "Nenhum jogador encontrado."</br> |
+| **Pós-condições** |<ul><li> POS01. As alterações feitas no gerenciamento de jogadores são salvas no banco de dados</br> <ul><li> POS02. O treinador visualiza a lista atualizada de jogadores. |
+| **Data da criação** | 23/11/2024 |
+| **Rastreabilidade** | |
+
+<font size="2"><p style="text-align: center">Autor: [Artur Jackson](https://github.com/artur-jack)  .</p></font>
+
+</center>
+
 ## Diagrama de Casos de Uso
 
 ## Bibliografia
