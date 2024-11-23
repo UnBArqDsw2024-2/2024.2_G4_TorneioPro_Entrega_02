@@ -1,0 +1,38 @@
+# Casos de Uso
+
+## Introdução
+
+## Metodologia
+
+## Casos de Uso
+
+<center>
+
+<font size="2"><p style="text-align: center">Tabela x: </p></font>
+
+| UC01 |  Buscar Veiculo |
+| -: | :- |
+| **Atores** | Usuário |
+| **Funcionalidade** | O usuário pode fazer uma busca pelo veiculo desaparecido |
+| **Pré-condições** | Conexão com a internet, Login no sistema |
+| **Ação** | O usuário busca um veiculo  |
+| **Fluxo básico** | <ul><li> O usuário acessa o aplicativo. </br> <ul><li> O usuário acessa a aba veiculo. </br> <ul><li> O usuário faz a busca pelo veículo </br> |
+| **Fluxos alternativos** | <ul><li> O usuário acessa o aplicativo </br> <ul><li> O usuário acessa a aba veiculo. </br> <ul><li> O app solicita a localização do usuário </br> <ul><li> O usuário seleciona "Sim"</br>  |
+| **Fluxos de exceção** | <ul><li> O usuário acessa o aplicativo </br> <ul><li> O usuário acessa a aba veiculo. </br> <ul><li>  O usuário faz a busca pelo veículo. </br> <ul><li> O aplicativo apresenta "Dados Incorretos" </br>  |
+| **Pós-condições** |POS01. O usuário tem acesso aos dados sobre o veiculo. |
+| **Data da criação** | 23/11/2024 |
+| **Rastreabilidade** | |
+
+<font size="2"><p style="text-align: center">Autor: [Italo Bruno](https://github.com/ItaloBrunoM)  .</p></font>
+
+</center>
+
+## Diagrama de Casos de Uso
+
+## Bibliografia
+
+## Histórico de Versão
+
+|Versão|Data|Descrição|Autor|Revisor| Detalhes da revisão |
+|:----:|----|---------|-----|:-------:|-----| 
+|  |  |  |  |  | |
