@@ -90,6 +90,28 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 </center>
 
+<center>
+
+<font size="2"><p style="text-align: center">Tabela 4: </p></font>
+
+| UC04 |  Gerenciar Time |
+| -: | :- |
+| **Atores** | Organizador |
+| **Funcionalidade** | O organizador pode encerrar campeonatos após sua conclusão |
+| **Pré-condições** | Conexão com a internet, Login no sistema como organizador, Campeonato deve estar ativo |
+| **Ação** | "O Organizador encerra o campeonato, impedindo edições futuras e atualizando o status para encerrado."  |
+| **Fluxo básico** | <ul><li> O organizador acessa o aplicativo como organizador. </br> <ul><li> O organizador navega até a seção de campeonatos. </br> <ul><li> O sistema exibe a lista de campeonatos ativos. </br> <ul><li> O organizador seleciona o torneio desejado e clica na opção "Encerrar Campeonato". </br> <ul><li> O sistema solicita confirmação para encerrar. </br> <ul><li> O organizador confirma a ação. </br> <ul><li> O sistema atualiza o status do campeonato para "Encerrado" e impede edições futuras. |
+| **Fluxos alternativos** | <ul><li> O organizador tenta acessar a funcionalidade de encerrar um campeonato que já está encerrado. <ul><li> O sistema não mostra a opção de encerrar  |
+| **Fluxos de exceção** | <ul><li> O organizador tenta encerrar um campeonato, mas há pendências no sistema (ex.: resultados não cadastrados). </br> <ul><li> O sistema exibe uma mensagem indicando: "Não é possível encerrar o campeonato. Resolva as pendências antes de prosseguir." </br> |
+| **Pós-condições** |<ul><li> POS01. O status do campeonato é atualizado para "Encerrado" no banco de dados. </br> <ul><li> POS02. O campeonato é exibido na lista de históricos encerrados. |
+| **Data da criação** | 24/11/2024 |
+| **Rastreabilidade** |  |
+
+
+<font size="2"><p style="text-align: center">Autor: [Harryson Campos](https://github.com/harry-cmartin) e [Oscar Brito]().</p></font>
+
+</center>
+
 ## Diagrama de Casos de Uso
 
 ## Bibliografia
