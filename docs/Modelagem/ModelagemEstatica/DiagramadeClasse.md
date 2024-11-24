@@ -19,6 +19,12 @@ Algumas das principais vantagens de usar diagramas de classe incluem:
 ## Notações do Diagrama de Classes
 
 ## Diagrama de Classes
+<font size="2"><p style="text-align: center">Tabela 1: Diagrama de Classes </p></font>
+
+![DiagramaDeClasse](../../Assets/diagrama_de_classes.jpeg) |
+
+
+<font size="2"><p style="text-align: center">Autores: [Flávio Melo](https://github.com/flavioovatsug), [Oscar de Brito](https://github.com/OscarDeBrito), [Italo Bruno](https://github.com/italobrunom), [Fabricio](https://github.com/FabricioDeQueiroz), [Gustavo França](https://github.com/gustavofbsy)  e [Yan Werlley](https://github.com/YanWerlley) </p></font>
 
 ## Conclusão
 
