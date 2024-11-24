@@ -16,6 +16,13 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <font size="2"><p style="text-align: center">Autor: [Flávio Melo](https://github.com/flavioovatsug)</p></font>
 
+## Diagrama de Casos de Uso
+
+<font size="2"><p style="text-align: center">Figura 1: Diagrama de Casos de Uso</p></font>
+
+![Diagrama de Casos de Uso](../../Assets/diagramaCasosDeUso.jpg)
+
+<font size="2"><p style="text-align: center">Autor: [Squad 2](### COLOCAR LINK ###) e [Squad 3](### COLOCAR LINK ###)</p></font>
 
 ## Casos de Uso
 
