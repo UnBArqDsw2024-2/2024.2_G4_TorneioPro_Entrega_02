@@ -24,6 +24,9 @@ Algumas das principais vantagens de usar diagramas de classe incluem:
 
 ## Bibliografia
 
+> 1. Serrano, Milene. Arquitetura E Desenho de Software AULA - Modelagem - Diagrama de Classe. Nov. 2024.
+> 2. GILLEANES T A GUEDES. UML : uma abordagem prática. São Paulo: Novatec, 2008.
+
 ## Histórico de Versão
 
 |Versão|Data|Descrição|Autor|Revisor| Detalhes da revisão |
