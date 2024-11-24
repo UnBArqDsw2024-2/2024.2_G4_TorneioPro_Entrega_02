@@ -21,18 +21,18 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela x: </p></font>
+<font size="2"><p style="text-align: center">Tabela 1: </p></font>
 
-| UC01 |  Buscar Veiculo |
+| UC01 |  Gerenciar Torneio |
 | -: | :- |
-| **Atores** | Usuário |
-| **Funcionalidade** | O usuário pode fazer uma busca pelo veiculo desaparecido |
-| **Pré-condições** | Conexão com a internet, Login no sistema |
-| **Ação** | O usuário busca um veiculo  |
-| **Fluxo básico** | <ul><li> O usuário acessa o aplicativo. </br> <ul><li> O usuário acessa a aba veiculo. </br> <ul><li> O usuário faz a busca pelo veículo </br> |
-| **Fluxos alternativos** | <ul><li> O usuário acessa o aplicativo </br> <ul><li> O usuário acessa a aba veiculo. </br> <ul><li> O app solicita a localização do usuário </br> <ul><li> O usuário seleciona "Sim"</br>  |
-| **Fluxos de exceção** | <ul><li> O usuário acessa o aplicativo </br> <ul><li> O usuário acessa a aba veiculo. </br> <ul><li>  O usuário faz a busca pelo veículo. </br> <ul><li> O aplicativo apresenta "Dados Incorretos" </br>  |
-| **Pós-condições** |POS01. O usuário tem acesso aos dados sobre o veiculo. |
+| **Atores** | Organizador |
+| **Funcionalidade** | O organizador pode criar e gerenciar torneios |
+| **Pré-condições** | Conexão com a internet, Login no sistema como organizador |
+| **Ação** | "O Organizador gerencia o campeonato, podendo visualizar, cadastrar, editar ou excluir informações relacionadas."  |
+| **Fluxo básico** | <ul><li> O usuário acessa o aplicativo como organizador. </br> <ul><li> O organizador acessa os torneios. </br> <ul><li> O sistema exibe a lista de torneios. </br> <ul><li> O organizador pode realizar uma das ações disponíveis no gerenciamento de jogadores: Criar, Visualizar, Adicionar, Editar e Excluir </br> |
+| **Fluxos alternativos** | <ul><li>O organizador acessa a funcionalidade de torneios.</li><li>O sistema exibe uma mensagem informando "Nenhum torneio encontrado".</li><li>O sistema apresenta a opção "Criar Torneio".</li><li>O organizador clica na opção "Criar Torneio".</li><li>O sistema exibe o formulário de criação de torneio.</li><li>O organizador insere os dados obrigatórios e confirma a criação.</li><li>O sistema salva o novo torneio no banco de dados e exibe a lista de torneios atualizada.</li></ul> |
+| **Fluxos de exceção** | <ul><li> O usuário acessa o aplicativo como organizador. </br> <ul><li> O organizador cria um torneio sem colocar nenhum dado</br> <ul><li>O sistema exibe uma mensagem indicando "Faltam informações obrigatórias."</br>  |
+| **Pós-condições** |<ul><li> POS01. As alterações feitas no gerenciamento de torneio são salvas no banco de dados</br> |
 | **Data da criação** | 23/11/2024 |
 | **Rastreabilidade** | |
 
@@ -42,7 +42,7 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela x: </p></font>
+<font size="2"><p style="text-align: center">Tabela 2: </p></font>
 
 | UC02 |  Gerenciar Jogador |
 | -: | :- |
@@ -53,7 +53,7 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 | **Fluxo básico** | <ul><li> O usuário acessa o aplicativo como treinador. </br> <ul><li> O treinador acessa seu time. </br> <ul><li> O sistema exibe a lista de jogadores associados ao time e informações do time. </br> <ul><li> O treinador pode realizar uma das ações disponíveis no gerenciamento de jogadores: Visualizar, Adicionar, Editar e Excluir </br>|
 | **Fluxos alternativos** | <ul><li> O treinador tenta acessar um time, mas ainda não possui times cadastrados </br> <ul><li> O sistema exibe uma mensagem informando que ele deve primeiro criar um time."</br>  |
 | **Fluxos de exceção** | <ul><li> O treinador busca um jogador pelo nome, mas o jogador não está na lista</br> <ul><li>O sistema exibe uma mensagem indicando "Nenhum jogador encontrado."</br> |
-| **Pós-condições** |<ul><li> POS01. As alterações feitas no gerenciamento de jogadores são salvas no banco de dados</br> <ul><li> POS02. O treinador visualiza a lista atualizada de jogadores. |
+| **Pós-condições** | <ul><li> POS02. As alterações feitas no gerenciamento de jogadores são salvas no banco de dados</br> <ul><li> O treinador visualiza a lista atualizada de jogadores. |
 | **Data da criação** | 23/11/2024 |
 | **Rastreabilidade** | |
 
