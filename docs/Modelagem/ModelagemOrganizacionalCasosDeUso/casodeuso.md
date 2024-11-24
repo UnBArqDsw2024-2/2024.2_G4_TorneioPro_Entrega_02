@@ -94,21 +94,44 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <font size="2"><p style="text-align: center">Tabela 4: </p></font>
 
-| UC04 |  Gerenciar Time |
+| **UC04** | **Gerenciar Time** |
+|----------|--------------------|
+| **Atores** | Treinador |
+| **Funcionalidade** | O Treinador pode criar e mudar as características do time. |
+| **Pré-condições** | - Conexão com a internet<br>- Login no sistema como treinador |
+| **Ação** | O treinador gerencia seus times, podendo visualizar, cadastrar, editar ou excluir informações relacionadas a eles. |
+| **Fluxo básico** | <ul><li>O usuário acessa o app como treinador.</li><li>O treinador navega até a seção de times.</li><li>O sistema exibe a lista de times ativos do treinador.</li><li>O treinador seleciona a opção "Criar time".</li><li>Excluir Time (FA01).</li><li>Editar Time (FA02).</li><li>O sistema mostra as informações necessárias a serem preenchidas.</li><li>O treinador preenche as informações.</li><li>O sistema valida as informações.</li><li>O sistema salva as informações do time.</li></ul> |
+| **Fluxos alternativos** | <ul><li>**FA01 – Excluir time**<ul><li>O treinador seleciona o ícone de lixeira.</li><li>O sistema exige a confirmação da ação de excluir.</li><li>O treinador confirma a exclusão clicando em "deletar".</li><li>O sistema exclui o time.</li><li>Fim do FA01.</li></ul></li><li>**FA02 – Editar time**<ul><li>O treinador seleciona o ícone de lápis.</li><li>O sistema mostra as informações necessárias a serem preenchidas.</li><li>O treinador preenche as informações.</li><li>O sistema valida as informações.</li><li>O sistema salva as informações do time.</li><li>Fim do FA02.</li></ul></li></ul> |
+| **Fluxos de exceção** | <ul><li>**FE01** - O treinador tenta criar um time mas não preenche informações obrigatórias<ul><li>O sistema exibe uma mensagem indicando: "Não é possível criar o time. Por favor, preencher todos os campos."</li></ul></li><li>**FE02** - O treinador tenta editar um time mas não preenche informações obrigatórias<ul><li>O sistema exibe uma mensagem indicando: "Não é possível editar o time. Por favor, preencher todos os campos."</li></ul></li></ul> |
+| **Pós-condições** | <ul><li>**POS01.** O time é criado e armazenado no banco.</li><li>**POS02.** O time é excluido da base de dados (FA01) .</li><li>**POS03.** As informações do time são atualizadas (FA02)  |
+| **Data da criação** | 24/11/2024 |
+| **Rastreabilidade** | - | 
+
+
+
+<font size="2"><p style="text-align: center">Autor: [Harryson Campos](https://github.com/harry-cmartin) e [Oscar Brito](https://github.com/OscarDeBrito).</p></font>
+
+</center>
+
+<center>
+
+<font size="2"><p style="text-align: center">Tabela 5: UC05 - Solicitar Entrada em Time</p></font>
+
+| UC05 |  Solicitar Entrada em Time |
 | -: | :- |
-| **Atores** | Organizador |
-| **Funcionalidade** | O organizador pode encerrar campeonatos após sua conclusão |
-| **Pré-condições** | Conexão com a internet, Login no sistema como organizador, Campeonato deve estar ativo |
-| **Ação** | "O Organizador encerra o campeonato, impedindo edições futuras e atualizando o status para encerrado."  |
-| **Fluxo básico** | <ul><li> O organizador acessa o aplicativo como organizador. </br> <ul><li> O organizador navega até a seção de campeonatos. </br> <ul><li> O sistema exibe a lista de campeonatos ativos. </br> <ul><li> O organizador seleciona o torneio desejado e clica na opção "Encerrar Campeonato". </br> <ul><li> O sistema solicita confirmação para encerrar. </br> <ul><li> O organizador confirma a ação. </br> <ul><li> O sistema atualiza o status do campeonato para "Encerrado" e impede edições futuras. |
-| **Fluxos alternativos** | <ul><li> O organizador tenta acessar a funcionalidade de encerrar um campeonato que já está encerrado. <ul><li> O sistema não mostra a opção de encerrar  |
-| **Fluxos de exceção** | <ul><li> O organizador tenta encerrar um campeonato, mas há pendências no sistema (ex.: resultados não cadastrados). </br> <ul><li> O sistema exibe uma mensagem indicando: "Não é possível encerrar o campeonato. Resolva as pendências antes de prosseguir." </br> |
-| **Pós-condições** |<ul><li> POS01. O status do campeonato é atualizado para "Encerrado" no banco de dados. </br> <ul><li> POS02. O campeonato é exibido na lista de históricos encerrados. |
+| **Atores** | Jogador |
+| **Funcionalidade** | O Jogador pode solicitar a entrada em um Time de um Campeonato existente. |
+| **Pré-condições** | Conexão com a internet, Campeonato deve estar ativo e marcado para data futura, Dados de cadastro, Time que ainda haja vagas. |
+| **Ação** | "O Jogador visualiza os Campeonatos marcados para acontecer futuramente, e solicita entrada em uma Equipe do Campeonato."  |
+| **Fluxo básico** | <ul><li> O Jogador acessa a página inicial da aplicação como usuário comum. </br> <li> No carrossel de Campeonatos Futuros, o Jogador seleciona o botão "Pedir para Participar" do Campeonato desejado. </br> <li> O sistema exibe os detalhes do Campeonato selecionado, juntamente com um formulário. </br> <li> O Jogador cadastra seus dados no formulário. </br> <li> O Jogador seleciona um Time, caso desejar. </br> <li> O Jogador aperta o botão "Solicitar Entrada", que enviará essa solicitação para o Organizador do evento, caso não tenha escolhido um Time, ou para o Treinador do Time que ele escolheu. </br> <li> Após ser aceito, o Jogador recebe um email com os dados para acessar a plataforma como um usuário Jogador. |
+| **Fluxos alternativos** | <ul><li> O Jogador tenta acessar um Campeonato que não está na categoria de Campeonatos Futuros. <li> O sistema não apresenta o botão "Solicitar entrada".  |
+| **Fluxos de exceção** | <ul><li> O Jogador tenta solicitar entrada sem fornecer seus dados, ou fornece dados inválidos. </br> <li> O sistema exibe uma mensagem indicando: "Não é possível Solicitar entrada no Campeonato. Dados inválidos ou não fornecidos." </br> |
+| **Pós-condições** |<ul><li> POS01. O Jogador é inserido no Time solicitado, ou no Campeonato solicitado. </br> <li> POS02. O Jogador não é aceito e recebe um email informando que não foi aceito. |
 | **Data da criação** | 24/11/2024 |
 | **Rastreabilidade** |  |
 
 
-<font size="2"><p style="text-align: center">Autor: [Harryson Campos](https://github.com/harry-cmartin) e [Oscar Brito]().</p></font>
+<font size="2"><p style="text-align: center">Autor: [Fabrício de Queiroz](https://github.com/FabricioDeQueiroz).</p></font>
 
 </center>
 
