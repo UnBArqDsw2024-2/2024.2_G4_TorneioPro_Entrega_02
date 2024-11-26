@@ -117,18 +117,18 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <font size="2"><p style="text-align: center">Tabela 5: UC05 - Solicitar Entrada em Time</p></font>
 
-| UC05 |  Solicitar Entrada em Time |
+| **UC05** |  **Solicitar Entrada em Time** |
 | -: | :- |
 | **Atores** | Jogador |
 | **Funcionalidade** | O Jogador pode solicitar a entrada em um Time de um Campeonato existente. |
-| **Pré-condições** | Conexão com a internet, Campeonato deve estar ativo e marcado para data futura, Dados de cadastro, Time que ainda haja vagas. |
-| **Ação** | "O Jogador visualiza os Campeonatos marcados para acontecer futuramente, e solicita entrada em uma Equipe do Campeonato."  |
+| **Pré-condições** | - Conexão com a internet <br> - Existir Campeonato ativo e para data futura <br> - Estar em posse dos dados pessoais para cadastro |
+| **Ação** | O Jogador visualiza os Campeonatos marcados para acontecer futuramente, e solicita entrada em uma Equipe do Campeonato.  |
 | **Fluxo básico** | <ul><li> O Jogador acessa a página inicial da aplicação como usuário comum. </br> <li> No carrossel de Campeonatos Futuros, o Jogador seleciona o botão "Pedir para Participar" do Campeonato desejado. </br> <li> O sistema exibe os detalhes do Campeonato selecionado, juntamente com um formulário. </br> <li> O Jogador cadastra seus dados no formulário. </br> <li> O Jogador seleciona um Time, caso desejar. </br> <li> O Jogador aperta o botão "Solicitar Entrada", que enviará essa solicitação para o Organizador do evento, caso não tenha escolhido um Time, ou para o Treinador do Time que ele escolheu. </br> <li> Após ser aceito, o Jogador recebe um email com os dados para acessar a plataforma como um usuário Jogador. |
-| **Fluxos alternativos** | <ul><li> O Jogador tenta acessar um Campeonato que não está na categoria de Campeonatos Futuros. <li> O sistema não apresenta o botão "Solicitar entrada".  |
-| **Fluxos de exceção** | <ul><li> O Jogador tenta solicitar entrada sem fornecer seus dados, ou fornece dados inválidos. </br> <li> O sistema exibe uma mensagem indicando: "Não é possível Solicitar entrada no Campeonato. Dados inválidos ou não fornecidos." </br> |
-| **Pós-condições** |<ul><li> POS01. O Jogador é inserido no Time solicitado, ou no Campeonato solicitado. </br> <li> POS02. O Jogador não é aceito e recebe um email informando que não foi aceito. |
+| **Fluxos alternativos** | - |
+| **Fluxos de exceção** | <ul><li> **FE01.** O Jogador tenta solicitar entrada sem fornecer seus dados, ou fornece dados inválidos. </br> <ul><li> O sistema exibe uma mensagem indicando: "Não é possível Solicitar entrada no Campeonato. Dados inválidos ou não fornecidos." </br> |
+| **Pós-condições** |<ul><li> **POS01.** O Jogador é inserido no Time solicitado, ou no Campeonato solicitado. </br> <li> **POS02.** O Jogador não é aceito e recebe um email informando que não foi aceito. |
 | **Data da criação** | 24/11/2024 |
-| **Rastreabilidade** |  |
+| **Rastreabilidade** | - |
 
 
 <font size="2"><p style="text-align: center">Autor: [Fabrício de Queiroz](https://github.com/FabricioDeQueiroz).</p></font>
