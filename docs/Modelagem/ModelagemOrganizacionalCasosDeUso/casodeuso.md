@@ -135,6 +135,50 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 </center>
 
+<center>
+
+<font size="2"><p style="text-align: center">Tabela 6: UC06 - Realizar Login</p></font>
+
+| **UC06** |  **Login** |
+| -: | :- |
+| **Atores** | Usuário |
+| **Funcionalidade** | O usuário poderá acessar o sistema utilizando cadastro feito previamente. |
+| **Pré-condições** | - Conexão com a internet <br> - Estar na página de login <br> - Estar em posse dos dados pessoais cadastrados (login e senha) |
+| **Ação** | O usuário realiza o Login para acessar as funcionalidades do sistema.  |
+| **Fluxo básico** | <ul><li> O usuário acessa o sistema. </br> <li> O usuário seleciona a opção de "Entrar". </br> <li> O sistema exibe os campos de preenchimento de login e senha. </br> <li> O usuário insere as informações de acordo com oque foi cadastrado. </br> <li> O sistema redireciona para a tela inicial de usuário. |
+| **Fluxos alternativos** | <ul><li>**FA01 – Esquecer a Senha**<ul><li>O usuário clica na opção de "Esqueceu a senha?".</li><li>É redirecionado para uma página de recuperação de senha.</li><li>O usuário digita o e-mail cadastrado e clica para enviar a recuperação de senha.</li><li>Ao acessar o seu e-mail cadastrado, o usuário acessa a mensagem de recuperação de senha enviada, e clica no link.</li><li> Ao acessar a página, o usuário digita a senha nova e sua respectiva confirmação, e após clicar em redefinir, aparece a mensagem de confirmação da ação realizada.</li></ul>|
+| **Fluxos de exceção** | <ul><li> **FE01.** O usário tenta realizar o login sem estar cadastrado. </br> <ul><li> O sistema exibe uma mensagem indicando: "Não é possível realizar Login. Dados inválidos ou usuário não cadastrado." </br> |
+| **Pós-condições** |<ul><li> **POS01.** O usuário poderá acessar as funcionalidades disponíveis de acordo com seu cadastro(Jogador, Treinador, Organizador) </br> <li> |
+| **Data da criação** | 26/11/2024 |
+| **Rastreabilidade** | - |
+
+
+<font size="2"><p style="text-align: center">Autores: [Yan Luca Viana](https://github.com/yan-luca), [Gabriel Esteves](https://github.com/GabrielMEsteves). </p></font>
+
+</center>
+
+<center>
+
+<font size="2"><p style="text-align: center">Tabela 7 : UC07 - Visualizar Campeonato</p></font>
+
+| **UC07** |  **Visualizar Campeonato** |
+| -: | :- |
+| **Atores** | Jogador, Treinador |
+| **Funcionalidade** | O usuário poderá visualizar os campeonatos disponíveis. |
+| **Pré-condições** | - Conexão com a internet <br> - Login no sistema <br> - Acessar a aba "Campeonatos" |
+| **Ação** | O usuário acessa a aba "campeonatos" como treinador ou jogador, para visualizar os campeonato disponíveis.  |
+| **Fluxo básico** | <ul><li> O usuário acessa o sistema. </br> <li> O usuário realiza o login". </br> <li> Após realizar o login na página inicial de usuário, clica na opção "campeonatos". </br> <li> Na tela de "Campeonatos", apresentará uma lista com todos os campeonatos disponíveis.</li></ul> |
+| **Fluxos alternativos** | - |
+| **Fluxos de exceção** | - |
+| **Pós-condições** |<ul><li> **POS01.** O usuário poderá Solicitar Inscrição em um campeonato (UC##) </br>|
+| **Data da criação** | 26/11/2024 |
+| **Rastreabilidade** | - |
+
+
+<font size="2"><p style="text-align: center">Autores: [Yan Luca Viana](https://github.com/yan-luca), [Gabriel Esteves](https://github.com/GabrielMEsteves). </p></font>
+
+</center>
+
 ## Diagrama de Casos de Uso
 
 ## Bibliografia
