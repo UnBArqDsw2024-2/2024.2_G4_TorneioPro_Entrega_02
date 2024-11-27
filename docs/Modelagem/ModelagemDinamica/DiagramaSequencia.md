@@ -41,6 +41,13 @@
 
 <font size="2"><p style="text-align: center">Autores: [Flávio Melo](https://github.com/flavioovatsug), [Oscar de Brito](https://github.com/OscarDeBrito) e [Fabrício](https://github.com/FabricioDeQueiroz) </p></font>
 
+<font size="2"><p style="text-align: center">Figura 4: Diagrama de Sequencia: Solicitar Entrada em Time </p></font>
+
+![Diagrama de Sequência - Solicitar Entrada em Time](../../Assets/SequenciaSolicitarEntradaEmTime.png)
+
+
+<font size="2"><p style="text-align: center">Autores: [Yan Luca Viana](https://github.com/yan-luca), [Gabriel Esteves](https://github.com/GabrielMEsteves) </p></font>
+
 ## Conclusão
 
 ## Bibliografia
