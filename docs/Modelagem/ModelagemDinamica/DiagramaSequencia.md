@@ -41,7 +41,7 @@
 
 <font size="2"><p style="text-align: center">Autores: [Flávio Melo](https://github.com/flavioovatsug), [Oscar de Brito](https://github.com/OscarDeBrito) e [Fabrício](https://github.com/FabricioDeQueiroz) </p></font>
 
-
+<br>
 <font size="2"><p style="text-align: center">Figura 4: Diagrama de Sequencia: Solicitar Entrada em Time </p></font>
 
 ![Diagrama de Sequência - Solicitar Entrada em Time](../../Assets/SequenciaSolicitarEntradaEmTime.png)
@@ -49,13 +49,21 @@
 
 <font size="2"><p style="text-align: center">Autores: [Yan Luca Viana](https://github.com/yan-luca) e [Gabriel Esteves](https://github.com/GabrielMEsteves) </p></font>
 
-
+ <br>
 <font size="2"><p style="text-align: center">Figura 5: Diagrama de Sequencia: Visualizar Campeonato </p></font>
 
 ![Diagrama de Sequência - Solicitar Entrada em Time](../../Assets/SequenciaVisualizarCampeonato.png)
 
 
 <font size="2"><p style="text-align: center">Autores: [Yan Luca Viana](https://github.com/yan-luca) e [Gabriel Esteves](https://github.com/GabrielMEsteves) </p></font>
+
+<br>
+<font size="2"><p style="text-align: center">Figura 6: Diagrama de Sequencia: Gerenciar Campeonato </p></font>
+
+![Diagrama de Sequência - Solicitar Entrada em Time](../../Assets/SequenciaGerenciarCampeonato.png)
+
+
+<font size="2"><p style="text-align: center">Autores: [Yan Luca Viana](https://github.com/yan-luca),  [Gabriel Esteves](https://github.com/GabrielMEsteves) e [Italo Bruno](https://github.com/ItaloBrunoM) </p></font>
 
 ## Conclusão
 
@@ -73,3 +81,4 @@
 | 1.3 | 24/11/2024 | Adição do Diagrama de sequencia: Gerenciar Partidas | [Flávio Melo](https://github.com/flavioovatsug), [Oscar de Brito](https://github.com/OscarDeBrito) e [Fabrício](https://github.com/FabricioDeQueiroz) |  | |
 | 1.4 | 26/11/2024 | Adição do Diagrama de sequencia: Gerenciar Partidas | [Yan Luca Viana](https://github.com/yan-luca) e [Gabriel Esteves](https://github.com/GabrielMEsteves)|  | |
 | 1.5 | 26/11/2024 | Adição do Diagrama de sequencia: Visualizar Campeonato | [Yan Luca Viana](https://github.com/yan-luca) e [Gabriel Esteves](https://github.com/GabrielMEsteves)|  | |
+| 1.6 | 26/11/2024 | Adição do Diagrama de sequencia: Gerenciar Campeonato | [Yan Luca Viana](https://github.com/yan-luca) , [Gabriel Esteves](https://github.com/GabrielMEsteves) e [Italo Bruno](https://github.com/ItaloBrunoM)|  | |
