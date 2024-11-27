@@ -1,8 +1,13 @@
-# Diagrama de Classe
+# Diagrama de Atividades
 
 ## Introdução
 
 
+Um diagrama de atividade é uma representação gráfica que descreve de forma clara e detalhada o fluxo de atividades ou processos em um sistema, auxiliando no entendimento e na análise de sua lógica operacional. Ele é particularmente útil para visualizar a sequência de etapas necessárias para alcançar um objetivo, seja no contexto de um processo de negócios, um sistema computacional ou uma interação entre usuários e sistemas.
+
+Amplamente utilizado em projetos de desenvolvimento de software, especialmente no contexto da UML (Unified Modeling Language), o diagrama de atividade é uma ferramenta poderosa para modelar comportamentos dinâmicos e complexos. Ele permite representar não apenas a ordem das ações, mas também os pontos de decisão, paralelismos e sincronia, bem como as condições que regem a transição entre diferentes estados.
+
+Esse tipo de diagrama é eficaz para destacar o controle e a troca de informações entre atividades, proporcionando uma visão clara de como diferentes elementos interagem dentro de um fluxo. Além disso, ele é capaz de representar situações onde múltiplas atividades ocorrem simultaneamente, identificando convergências e bifurcações, o que o torna essencial para o planejamento de processos e a identificação de possíveis gargalos ou falhas.
 
 
 
@@ -137,3 +142,4 @@ As Figuras 5 a 9 a seguir, apresentam os Diagramas de Atividades da aplicação 
 |:----:|----|---------|-----|:-------:|-----| 
 |  |  |  |  |  | |
 | 1.0 | 27/11/2024 | Adicionando Notações do Diagrama de Atividades |[Christian](https://github.com/crstyhs) |  | |
+|1.1| 27/11/2024 | Adicionando informações relevantes para o artefato |[Ian Lucca](https://github.com/IanLucca12)  | |
