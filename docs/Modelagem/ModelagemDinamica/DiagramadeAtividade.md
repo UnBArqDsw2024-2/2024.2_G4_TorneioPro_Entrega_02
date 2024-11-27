@@ -137,6 +137,7 @@ As Figuras 5 a 9 a seguir, apresentam os Diagramas de Atividades da aplicação 
 
 > 1. LUCIDCHART. O que é diagrama de atividades UML?. Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-atividades-uml. Acesso em: 27 nov. 2024.
 ## Histórico de Versão
+> 2. FOWLER, Martin. UML Distilled: A Brief Guide to the Standard Object Modeling Language. 3. ed. Boston: Addison-Wesley, 2004.
 
 |Versão|Data|Descrição|Autor|Revisor| Detalhes da revisão |
 |:----:|----|---------|-----|:-------:|-----| 
