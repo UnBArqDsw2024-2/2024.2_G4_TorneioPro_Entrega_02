@@ -73,6 +73,22 @@ A equipe optou por produzir Diagramas de Sequência da maioria das funcionalidad
 
 <font size="2"><p style="text-align: center">Autores: [Yan Luca Viana](https://github.com/yan-luca),  [Gabriel Esteves](https://github.com/GabrielMEsteves) e [Italo Bruno](https://github.com/ItaloBrunoM) </p></font>
 
+<br>
+<font size="2"><p style="text-align: center">Figura 7: Diagrama de Sequencia: Login </p></font>
+
+![Diagrama de Sequência - Login](../../Assets/login.png)
+
+
+<font size="2"><p style="text-align: center">Autores: [Christian](https://github.com/crstyhs), [Ian Lucca](https://github.com/IanLucca12)  </p></font>
+
+<br>
+<font size="2"><p style="text-align: center">Figura 8: Diagrama de Sequencia: Encerrar Campeonato </p></font>
+
+![Diagrama de Sequência - Solicitar Encerrar campeonato](../../Assets/EncerrarCampeonato.png)
+
+
+<font size="2"><p style="text-align: center">Autores: [Christian](https://github.com/crstyhs), [Ian Lucca](https://github.com/IanLucca12) e [Harryson Campos](https://github.com/harry-cmartin) </p></font>
+
 </center>
 
 ## Conclusão
@@ -95,3 +111,4 @@ A equipe optou por produzir Diagramas de Sequência da maioria das funcionalidad
 | 1.5 | 26/11/2024 | Adição do Diagrama de sequencia: Visualizar Campeonato | [Yan Luca Viana](https://github.com/yan-luca) e [Gabriel Esteves](https://github.com/GabrielMEsteves)|  | |
 | 1.6 | 26/11/2024 | Adição do Diagrama de sequencia: Gerenciar Campeonato | [Yan Luca Viana](https://github.com/yan-luca) , [Gabriel Esteves](https://github.com/GabrielMEsteves) e [Italo Bruno](https://github.com/ItaloBrunoM)|  | |
 | 1.7 | 27/11/2024 | Adição da Introdução, Metodologia e Bibliografia | [Fabrício](https://github.com/FabricioDeQueiroz), [Flávio Melo](https://github.com/flavioovatsug) e [Oscar de Brito](https://github.com/OscarDeBrito) |  | |
+| 1.8 | 27/11/2024 | Adição do Diagrama de sequencia: Encerrar Campeonato e Login | [Christian](https://github.com/crstyhs) |  | |
