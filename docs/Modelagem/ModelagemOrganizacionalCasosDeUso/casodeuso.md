@@ -164,10 +164,10 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 | **UC07** |  **Visualizar Campeonato** |
 | -: | :- |
 | **Atores** | Jogador, Treinador |
-| **Funcionalidade** | O usuário poderá visualizar os campeonatos disponíveis. |
+| **Funcionalidade** | O usuário poderá visualizar informações dos campeonatos disponíveis. |
 | **Pré-condições** | - Conexão com a internet <br> - Login no sistema <br> - Acessar a aba "Campeonatos" |
 | **Ação** | O usuário acessa a aba "campeonatos" como treinador ou jogador, para visualizar os campeonato disponíveis.  |
-| **Fluxo básico** | <ul><li> O usuário acessa o sistema. </br> <li> O usuário realiza o login". </br> <li> Após realizar o login na página inicial de usuário, clica na opção "campeonatos". </br> <li> Na tela de "Campeonatos", apresentará uma lista com todos os campeonatos disponíveis.</li></ul> |
+| **Fluxo básico** | <ul><li> O usuário acessa o sistema. </br> <li> O usuário realiza o login". </br> <li> Após realizar o login na página inicial de usuário, clica na opção "campeonatos". </br> <li> Na tela de "Campeonatos", apresentará uma lista com todos os campeonatos disponíveis.</li><li> O usuário seleciona um campeonato para visualizar suas informações. <li> O sistema apresenta as informações do campeonato selecionado.</ul> |
 | **Fluxos alternativos** | - |
 | **Fluxos de exceção** | - |
 | **Pós-condições** |<ul><li> **POS01.** O usuário poderá Solicitar Inscrição em um campeonato (UC##) </br>|
