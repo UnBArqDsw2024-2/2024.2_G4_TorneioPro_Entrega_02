@@ -9,7 +9,9 @@ Amplamente utilizado em projetos de desenvolvimento de software, especialmente n
 
 Esse tipo de diagrama é eficaz para destacar o controle e a troca de informações entre atividades, proporcionando uma visão clara de como diferentes elementos interagem dentro de um fluxo. Além disso, ele é capaz de representar situações onde múltiplas atividades ocorrem simultaneamente, identificando convergências e bifurcações, o que o torna essencial para o planejamento de processos e a identificação de possíveis gargalos ou falhas.
 
+## Metodologia
 
+O squad realizou uma reunião colaborativa para o desenvolvimento do documento e do diagrama. Durante o encontro, todos os integrantes participaram ativamente, contribuindo com ideias, análises e sugestões para aprimorar o trabalho.
 
 ## Notações do Diagrama de Atividades
 
