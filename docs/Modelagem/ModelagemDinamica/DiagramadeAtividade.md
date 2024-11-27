@@ -21,7 +21,7 @@ Principal estrutura do diagrama que representa uma atividade dentro de um proces
 
 <font size="2"><p style="text-align: center">Figura 1: Notação - Atividade </p></font>
 
-![DiagramaDeAtividadeNotacao1](../../Assets/)
+![DiagramaDeAtividadeNotacao1](../../Assets/atividade.png)
 
 
 <font size="2"><p style="text-align: center">Autor: [Christian](https://github.com/crstyhs)</p></font>
@@ -36,7 +36,7 @@ Representa uma ramificação decorrente de uma decisão, o losango se divide em 
 
 <font size="2"><p style="text-align: center">Figura 2: Notação - Decisão </p></font>
 
-![DiagramaDeAtividadeNotacao2](../../Assets/)
+![DiagramaDeAtividadeNotacao2](../../Assets/decisao.png)
 
 
 <font size="2"><p style="text-align: center">Autor: [Christian](https://github.com/crstyhs)</p></font>
@@ -51,7 +51,7 @@ Linhas horizontais ou verticais usadas para representar operações paralelas ou
 
 <font size="2"><p style="text-align: center">Figura 3: Notação - Barra </p></font>
 
-![DiagramaDeAtividadeNotacao3](../../Assets/relacionamentos.jpg)
+![DiagramaDeAtividadeNotacao3](../../Assets/barra.png)
 
 
 <font size="2"><p style="text-align: center">Autor: [Christian](https://github.com/crstyhs)</p></font>
@@ -66,7 +66,7 @@ Representam o início e fim do diagrama, marcados por um círculo sólido (iníc
 
 <font size="2"><p style="text-align: center">Figura 4: Notação - Início/Término </p></font>
 
-![DiagramaDeAtividadeNotacao4](../../Assets/)
+![DiagramaDeAtividadeNotacao4](../../Assets/iniciofim.png)
 
 
 <font size="2"><p style="text-align: center">Autor: [Christian](https://github.com/crstyhs)</p></font>
@@ -81,7 +81,7 @@ As Figuras 5 a 9 a seguir, apresentam os Diagramas de Atividades da aplicação 
 
 <font size="2"><p style="text-align: center">Figura 5: Diagrama de Atividades Cadastro de Campeonato </p></font>
 
-![DiagramaDeAtividades1](../../Assets/)
+![DiagramaDeAtividades1](../../Assets/cadastrocampeonato.png)
 
 
 <font size="2"><p style="text-align: center">Autores: [Christian](https://github.com/crstyhs), [Ian Lucca](https://github.com/IanLucca12), [Caio Sulz](https://github.com/CaioSulz), [Harryson Campos](https://github.com/harry-cmartin) </p></font>
@@ -92,7 +92,7 @@ As Figuras 5 a 9 a seguir, apresentam os Diagramas de Atividades da aplicação 
 
 <font size="2"><p style="text-align: center">Figura 6: Diagrama de Atividades Cadastro de Usuário ou Administrador </p></font>
 
-![DiagramaDeAtividades2](../../Assets/)
+![DiagramaDeAtividades2](../../Assets/cadastrodeusuario.png)
 
 
 <font size="2"><p style="text-align: center">Autores: [Christian](https://github.com/crstyhs), [Ian Lucca](https://github.com/IanLucca12), [Caio Sulz](https://github.com/CaioSulz), [Harryson Campos](https://github.com/harry-cmartin) </p></font>
@@ -103,7 +103,7 @@ As Figuras 5 a 9 a seguir, apresentam os Diagramas de Atividades da aplicação 
 
 <font size="2"><p style="text-align: center">Figura 7: Diagrama de Atividades Cadastro de Equipes</p></font>
 
-![DiagramaDeAtividades3](../../Assets/)
+![DiagramaDeAtividades3](../../Assets/cadastroequipe.png)
 
 
 <font size="2"><p style="text-align: center">Autores: [Christian](https://github.com/crstyhs), [Ian Lucca](https://github.com/IanLucca12), [Caio Sulz](https://github.com/CaioSulz), [Harryson Campos](https://github.com/harry-cmartin) </p></font>
@@ -114,7 +114,7 @@ As Figuras 5 a 9 a seguir, apresentam os Diagramas de Atividades da aplicação 
 
 <font size="2"><p style="text-align: center">Figura 8: Diagrama de Atividades Cadastro de Jogador/Líder</p></font>
 
-![DiagramaDeAtividades4](../../Assets/)
+![DiagramaDeAtividades4](../../Assets/cadastrojogador.png)
 
 
 <font size="2"><p style="text-align: center">Autores: [Christian](https://github.com/crstyhs), [Ian Lucca](https://github.com/IanLucca12), [Caio Sulz](https://github.com/CaioSulz), [Harryson Campos](https://github.com/harry-cmartin) </p></font>
@@ -125,7 +125,7 @@ As Figuras 5 a 9 a seguir, apresentam os Diagramas de Atividades da aplicação 
 
 <font size="2"><p style="text-align: center">Figura 9: Diagrama de Atividades Chaveamento dos times</p></font>
 
-![DiagramaDeAtividades5](../../Assets/)
+![DiagramaDeAtividades5](../../Assets/chaveamento.png)
 
 
 <font size="2"><p style="text-align: center">Autores: [Christian](https://github.com/crstyhs), [Ian Lucca](https://github.com/IanLucca12), [Caio Sulz](https://github.com/CaioSulz), [Harryson Campos](https://github.com/harry-cmartin) </p></font>
@@ -145,3 +145,4 @@ As Figuras 5 a 9 a seguir, apresentam os Diagramas de Atividades da aplicação 
 |  |  |  |  |  | |
 | 1.0 | 27/11/2024 | Adicionando Notações do Diagrama de Atividades |[Christian](https://github.com/crstyhs) |  | |
 |1.1| 27/11/2024 | Adicionando informações relevantes para o artefato |[Ian Lucca](https://github.com/IanLucca12)  | |
+| 1.2 | 27/11/2024 | Adicionando imagens |[Christian](https://github.com/crstyhs) |  | |
