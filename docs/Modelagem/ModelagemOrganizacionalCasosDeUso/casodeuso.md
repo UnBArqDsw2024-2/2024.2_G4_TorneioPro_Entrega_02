@@ -2,6 +2,8 @@
 
 ## Introdução
 
+O diagrama de casos de uso é uma representação gráfica utilizada para descrever as funcionalidades de um sistema sob a perspectiva de seus usuários finais (atores). Baseado na UML, esse diagrama destaca as interações entre os atores e os casos de uso, que representam as principais ações do sistema. Ele é amplamente utilizado na fase de levantamento de requisitos, pois facilita a comunicação entre analistas, desenvolvedores e stakeholders, garantindo que as funcionalidades sejam compreendidas e atendam às necessidades do projeto. Além disso, sua simplicidade e objetividade tornam-no uma ferramenta essencial para alinhar expectativas e planejar o desenvolvimento de sistemas eficazes.
+
 ## Metodologia
 O diagrama de caso de uso é uma representação visual que sintetiza as interações entre os usuários e o sistema. Para definir os casos de uso do nosso sistema, realizamos uma reunião no Discord, durante a qual analisamos detalhadamente as funcionalidades previstas para o nosso site. Essa abordagem nos permitiu identificar cenários realistas de uso, mapeando as principais funcionalidades e as interações entre os usuários e o sistema que estamos desenvolvendo. Como resultado, conseguimos uma visão clara e organizada dos requisitos, o que facilitará a implementação.
 
@@ -237,9 +239,10 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 </center>
 
-## Diagrama de Casos de Uso
-
 ## Bibliografia
+
+SILVA, M. R. Análise e Projeto Orientado a Objetos com UML. 2ª ed. São Paulo: Atlas, 2013.
+LUCIDCHART. Diagrama de Caso de Uso UML: Guia Completo. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml.
 
 ## Histórico de Versão
 
