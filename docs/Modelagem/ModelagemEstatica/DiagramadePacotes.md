@@ -10,7 +10,7 @@ O objetivo deste documento é descrever a estrutura lógica do sistema, destacan
 
 O objetivo do diagrama de pacotes, no contexto metodológico, é organizar e estruturar os módulos do sistema com base nos princípios de design de software. Ele busca refletir a separação de responsabilidades, minimizar dependências entre os componentes e facilitar a implementação, manutenção e escalabilidade do sistema.
 
-O diagrama foi desenvolvido de acordo com os Framework Django para o backend e React Native para o frontend, e atulizamos como pilares de construção os seguintes pontos:
+O diagrama foi desenvolvido de acordo com os Frameworks Django para o backend e React Native para o frontend, e utilizamos como pilares de construção os seguintes pontos:
 
 - **Definição dos Pacotes Principais**
 
@@ -44,3 +44,5 @@ O diagrama foi desenvolvido de acordo com os Framework Django para o backend e R
 |  |  |  |  |  | |
 | 1.0 | 27/11/2024 | Criação do documento e Metodologia |[Caio Sulz](https://github.com/CaioSulz) |  | |
 |1.1|27/11/2024| Complementando o documento |[Harryson](https://github.com/harry-cmartin)|
+| 1.2 | 28/11/2024 | Correção no texto de metodologia |[Caio Sulz](https://github.com/CaioSulz) |
+
