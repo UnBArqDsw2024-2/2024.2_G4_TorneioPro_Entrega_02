@@ -31,16 +31,16 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <font size="2"><p style="text-align: center">Tabela 1: </p></font>
 
-| UC01 |  Gerenciar Torneio |
+| UC01 |  Gerenciar Campeonato |
 | -: | :- |
 | **Atores** | Organizador |
-| **Funcionalidade** | O organizador pode criar e gerenciar torneios |
+| **Funcionalidade** | O organizador pode criar e gerenciar campeonatos |
 | **Pré-condições** | <uii><li> Conexão com a internet </li><li> Login no sistema como organizador |
 | **Ação** | O Organizador gerencia o campeonato, podendo visualizar, cadastrar, editar ou excluir informações relacionadas.  |
-| **Fluxo básico** | <ul><li> O usuário acessa o aplicativo como organizador. </br> </li><li> O organizador acessa os torneios. </br> </li><li> O sistema exibe a lista de torneios. </br> </li><li> O organizador pode realizar uma das ações disponíveis no gerenciamento de jogadores: Criar, Visualizar, Editar e Excluir </br> |
-| **Fluxos alternativos** | <ul><li>O organizador acessa a funcionalidade de torneios.</br></li><li>O sistema exibe uma mensagem informando "Nenhum torneio encontrado".</br></li><li>O sistema apresenta a opção "Criar Torneio".</br> </li><li>O organizador clica na opção "Criar Torneio".</br> </li><li>O sistema exibe o formulário de criação de torneio.</br> </li><li>O organizador insere os dados obrigatórios e confirma a criação.</br> </li><li>O sistema salva o novo torneio no banco de dados e exibe a lista de torneios atualizada.</li></ul> |
-| **Fluxos de exceção** | <ul><li> O usuário acessa o aplicativo como organizador. </br> <ul><li> O organizador cria um torneio sem colocar nenhum dado</br> </li><li>O sistema exibe uma mensagem indicando "Faltam informações obrigatórias."</br>  |
-| **Pós-condições** |<ul><li> POS01. As alterações feitas no gerenciamento de torneio são salvas no banco de dados</br> |
+| **Fluxo básico** | <ul><li> O usuário acessa o aplicativo como organizador. </br> </li><li> O organizador acessa os campeonatos. </br> </li><li> O sistema exibe a lista de campeonatos. </br> </li><li> O organizador pode realizar uma das ações disponíveis no gerenciamento de jogadores: Criar, Visualizar, Editar e Excluir </br> |
+| **Fluxos alternativos** | <ul><li>O organizador acessa a funcionalidade de campeonatos.</br></li><li>O sistema exibe uma mensagem informando "Nenhum campeonato encontrado".</br></li><li>O sistema apresenta a opção "Criar campeonato".</br> </li><li>O organizador clica na opção "Criar campeonato".</br> </li><li>O sistema exibe o formulário de criação de campeonato.</br> </li><li>O organizador insere os dados obrigatórios e confirma a criação.</br> </li><li>O sistema salva o novo campeonato no banco de dados e exibe a lista de campeonatos atualizada.</li></ul> |
+| **Fluxos de exceção** | <ul><li> O usuário acessa o aplicativo como organizador. </br> <ul><li> O organizador cria um campeonato sem colocar nenhum dado</br> </li><li>O sistema exibe uma mensagem indicando "Faltam informações obrigatórias."</br>  |
+| **Pós-condições** |<ul><li> POS01. As alterações feitas no gerenciamento de campeonato são salvas no banco de dados</br> |
 | **Data da criação** | 23/11/2024 |
 | **Rastreabilidade** | |
 
@@ -79,7 +79,7 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 | **Funcionalidade** | O organizador pode encerrar campeonatos após sua conclusão |
 | **Pré-condições** | <ui><li> Conexão com a internet <br> </li><li> Login no sistema como organizador <br> </li><li> Campeonato deve estar ativo |
 | **Ação** | O Organizador encerra o campeonato, impedindo edições futuras e atualizando o status para encerrado.  |
-| **Fluxo básico** | <ul><li> O organizador acessa o aplicativo como organizador. </br> </li><li> O organizador navega até a seção de campeonatos. </br> </li><li> O sistema exibe a lista de campeonatos ativos. </br> </li><li> O organizador seleciona o torneio desejado e clica na opção "Encerrar Campeonato". </br> </li><li> O sistema solicita confirmação para encerrar. </br> </li><li> O organizador confirma a ação. </br> </li><li> O sistema atualiza o status do campeonato para "Encerrado" e impede edições futuras. |
+| **Fluxo básico** | <ul><li> O organizador acessa o aplicativo como organizador. </br> </li><li> O organizador navega até a seção de campeonatos. </br> </li><li> O sistema exibe a lista de campeonatos ativos. </br> </li><li> O organizador seleciona o campeonato desejado e clica na opção "Encerrar Campeonato". </br> </li><li> O sistema solicita confirmação para encerrar. </br> </li><li> O organizador confirma a ação. </br> </li><li> O sistema atualiza o status do campeonato para "Encerrado" e impede edições futuras. |
 | **Fluxos alternativos** | <ul><li> O organizador tenta acessar a funcionalidade de encerrar um campeonato que já está encerrado. <ul><li> O sistema não mostra a opção de encerrar  |
 | **Fluxos de exceção** | <ul><li> O organizador tenta encerrar um campeonato, mas há pendências no sistema (ex.: resultados não cadastrados). </br> <ul><li> O sistema exibe uma mensagem indicando: "Não é possível encerrar o campeonato. Resolva as pendências antes de prosseguir." </br> |
 | **Pós-condições** |<ul><li> POS01. O status do campeonato é atualizado para "Encerrado" no banco de dados. </br> <ul><li> POS02. O campeonato é exibido na lista de históricos encerrados. |
@@ -109,7 +109,7 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 | *Data da criação* | 23/11/2024 |
 | *Rastreabilidade* | |
 
-<font size="2"><p style="text-align: center">Autor: [Gustavo](https://github.com/ItaloBrunoM), [Flávio Melo](https://github.com/flavioovatsug) e [Oscar Brito](https://github.com/OscarDeBrito) .</p></font>
+<font size="2"><p style="text-align: center">Autor: [Gustavo França](https://github.com/gustavofbs), [Flávio Melo](https://github.com/flavioovatsug) e [Oscar Brito](https://github.com/OscarDeBrito) .</p></font>
 
 </center>
 
@@ -122,7 +122,7 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela 4: </p></font>
+<font size="2"><p style="text-align: center">Tabela 4: Gerenciar Time</p></font>
 
 | **UC04** | **Gerenciar Time** |
 |----------|--------------------|
@@ -142,6 +142,34 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 <font size="2"><p style="text-align: center">Autor: [Harryson Campos](https://github.com/harry-cmartin) e [Oscar Brito](https://github.com/OscarDeBrito).</p></font>
 
 </center>
+
+
+<center>
+
+<font size="2"><p style="text-align: center">Tabela 5: *Aceitar Solicitação de Jogador </p></font>
+
+| **UC04** | **Aceitar Solicitação de Jogador** |
+|----------|--------------------|
+| **Atores** | Organizador |
+| **Funcionalidade** | O organizador aceita uma solicitação de um jogador para ingressar em um time. |
+| **Pré-condições** | <ui><li> Conexão com a internet<br> </li><li> Login no sistema como organizador </li><li> O jogador já deve estar cadastrado no sistema. </li><li> O jogador deve ter solicitado entrada em um time. |
+| **Ação** | O organizador gerencia as solicitações dos jogadores aos times, podendo aceitá-las ou recusá-las |
+| **Fluxo básico** | <ul><li> O organizador acessa o sistema. </li><li>O organizador realiza login. </li><li>O organizador acessa a funcionalidade "Gerenciar times".</li><li>O sistema apresenta uma lista de solicitações pendentes de jogadores.</li><li>O organizador seleciona uma solicitação para revisão.</li><li>O sistema exibe os detalhes da solicitação do jogador.</li><li>O organizador aceita a solicitação.</li><li> Recusar Solicitação (FA01).  </li><li>O sistema atualiza o status do jogador como membro do time. |
+| **Fluxos alternativos** | <ul><li>**FA01 – Recusar Solicitação**<ul><li>Em vez de aceitar a solicitação, o organizador opta por rejeitá-la.</li><li>Fim do FA01.</li></ul> |
+| **Fluxos de exceção** |  |
+| **Pós-condições** | <ul><li>**POS01.** O jogador é adicionado ao time selecionado.</li><li>**POS02.** O sistema atualiza a lista de solicitações pendentes.  |
+| **Data da criação** | 28/11/2024 |
+| **Rastreabilidade** |  | 
+
+
+
+<font size="2"><p style="text-align: center">Autor: [Gustavo França](https://github.com/gustavofbs) e [Yan Werlley](https://github.com/YanWerlley).</p></font>
+
+</center>
+
+
+
+
 
 <center>
 
@@ -217,4 +245,6 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 |Versão|Data|Descrição|Autor|Revisor| Detalhes da revisão |
 |:----:|----|---------|-----|:-------:|-----| 
-| 1.0 | 27/11/2024 | Adiciona o caso de uso "Editar Partida" e corrige a formatação dos demais | [Gustavo](https://github.com/ItaloBrunoM), [Flávio Melo](https://github.com/flavioovatsug) e [Oscar Brito](https://github.com/OscarDeBrito) |  | |
+| 1.0 | 27/11/2024 | Criação do documento com a inserção de casos de uso | [Squad 1](../../SubGrupo/squad1.md), [Squad 2](../../SubGrupo/squad2.md) e [Squad 3](../../SubGrupo/squad3.md) |  | |
+| 1.1 | 27/11/2024 | Adiciona o caso de uso "Editar Partida" e corrige a formatação dos demais | [Flávio Melo](https://github.com/flavioovatsug), [Gustavo França](https://github.com/gustavofbs) e [Oscar Brito](https://github.com/OscarDeBrito) |  | |
+| 1.2 | 27/11/2024 | Adiciona o caso de uso "Aceitar Solicitação de Jogador" | [Gustavo França](https://github.com/gustavofbs), [Flávio Melo](https://github.com/flavioovatsug) e [Yan Werlley](https://github.com/YanWerlley) |  | |
