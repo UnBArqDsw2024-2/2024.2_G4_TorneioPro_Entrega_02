@@ -16,6 +16,12 @@ Algumas das principais vantagens de usar diagramas de classe incluem:
 
 ## Metodologia
 
+A construção do diagrama de classes segue um processo estruturado, que busca garantir uma representação clara e precisa do sistema. O primeiro passo é analisar os requisitos do sistema, identificando as principais entidades (ou classes) que precisam ser modeladas. Cada classe é definida com seus atributos e métodos, com base nas funcionalidades necessárias para o sistema.
+
+Em seguida, são mapeados os relacionamentos entre as classes, como associação, agregação, composição e generalização, para mostrar como elas interagem e se conectam dentro do sistema. O uso dessas notações ajuda a esclarecer a estrutura e as dependências entre os componentes do sistema.
+
+A equipe de desenvolvimento utiliza o diagrama de classes como uma ferramenta de colaboração, ajustando e refinando a modelagem à medida que o entendimento do sistema evolui. Essa abordagem permite identificar potenciais melhorias ou problemas de design antes da implementação, contribuindo para a construção de um sistema mais coeso e eficiente.
+
 ## Notações do Diagrama de Classes
 
 ### Classe
@@ -76,4 +82,5 @@ A Figura 3 a seguir, apresenta o Diagrama de Classes da aplicação TorneioPro, 
 |Versão|Data|Descrição|Autor|Revisor| Detalhes da revisão |
 |:----:|----|---------|-----|:-------:|-----| 
 |  |  |  |  |  | |
-| 1.1 | 26/11/2024 | Adicionando Notações do Diagrama de Classes e Correções | [Fabrício](https://github.com/FabricioDeQueiroz) e [Flávio Melo](https://github.com/flavioovatsug) |  | |
+| 1.0 | 26/11/2024 | Adicionando Notações do Diagrama de Classes e Correções | [Fabrício](https://github.com/FabricioDeQueiroz) e [Flávio Melo](https://github.com/flavioovatsug) |  | |
+| 1.1 | 27/11/2024 | Adiciona a parte metodológica utilizada | [Gustavo França](https://github.com/gustavofbs) |  | |
