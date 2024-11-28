@@ -89,6 +89,14 @@ A equipe optou por produzir Diagramas de Sequência da maioria das funcionalidad
 
 <font size="2"><p style="text-align: center">Autores: [Christian](https://github.com/crstyhs), [Ian Lucca](https://github.com/IanLucca12) e [Harryson Campos](https://github.com/harry-cmartin) </p></font>
 
+<br>
+<font size="2"><p style="text-align: center">Figura 9: Diagrama de Sequencia: Aceitar Solicitação de Jogador </p></font>
+
+![Diagrama de Sequência - Aceitar Solicitação de Jogador](../../Assets/SequenciaAceitarSolicitacaoJogador.jpg)
+
+
+<font size="2"><p style="text-align: center">Autores: [Yan Werlley](https://github.com/YanWerlley) e [Gustavo França](https://github.com/gustavofbs) </p></font>
+
 </center>
 
 ## Conclusão
@@ -112,3 +120,4 @@ A equipe optou por produzir Diagramas de Sequência da maioria das funcionalidad
 | 1.6 | 26/11/2024 | Adição do Diagrama de sequencia: Gerenciar Campeonato | [Yan Luca Viana](https://github.com/yan-luca) , [Gabriel Esteves](https://github.com/GabrielMEsteves) e [Italo Bruno](https://github.com/ItaloBrunoM)|  | |
 | 1.7 | 27/11/2024 | Adição da Introdução, Metodologia e Bibliografia | [Fabrício](https://github.com/FabricioDeQueiroz), [Flávio Melo](https://github.com/flavioovatsug) e [Oscar de Brito](https://github.com/OscarDeBrito) |  | |
 | 1.8 | 27/11/2024 | Adição do Diagrama de sequencia: Encerrar Campeonato e Login | [Christian](https://github.com/crstyhs) |  | |
+| 1.9 | 28/11/2024 | Adição do Diagrama de sequencia: Aceitar Solicitação de Jogador | [Yan Werlley](https://github.com/YanWerlley) e [Gustavo França](https://github.com/gustavofbs)|  | |
