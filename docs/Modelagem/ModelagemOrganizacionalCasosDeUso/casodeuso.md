@@ -22,7 +22,8 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 ![Diagrama de Casos de Uso](../../Assets/diagramaCasosDeUso.jpg)
 
-<font size="2"><p style="text-align: center">Autor: [Squad 2](### COLOCAR LINK ###) e [Squad 3](### COLOCAR LINK ###)</p></font>
+<font size="2"><p style="text-align: center">Autor: [Squad 2]([Squad2](../../SubGrupo/squad2.md)
+) e [Squad 3](../../SubGrupo/squad3.md)</p></font>
 
 ## Casos de Uso
 
@@ -34,8 +35,8 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 | -: | :- |
 | **Atores** | Organizador |
 | **Funcionalidade** | O organizador pode criar e gerenciar torneios |
-| **Pré-condições** | Conexão com a internet, Login no sistema como organizador |
-| **Ação** | "O Organizador gerencia o campeonato, podendo visualizar, cadastrar, editar ou excluir informações relacionadas."  |
+| **Pré-condições** | <uii><li> Conexão com a internet </li><li> Login no sistema como organizador |
+| **Ação** | O Organizador gerencia o campeonato, podendo visualizar, cadastrar, editar ou excluir informações relacionadas.  |
 | **Fluxo básico** | <ul><li> O usuário acessa o aplicativo como organizador. </br> </li><li> O organizador acessa os torneios. </br> </li><li> O sistema exibe a lista de torneios. </br> </li><li> O organizador pode realizar uma das ações disponíveis no gerenciamento de jogadores: Criar, Visualizar, Editar e Excluir </br> |
 | **Fluxos alternativos** | <ul><li>O organizador acessa a funcionalidade de torneios.</br></li><li>O sistema exibe uma mensagem informando "Nenhum torneio encontrado".</br></li><li>O sistema apresenta a opção "Criar Torneio".</br> </li><li>O organizador clica na opção "Criar Torneio".</br> </li><li>O sistema exibe o formulário de criação de torneio.</br> </li><li>O organizador insere os dados obrigatórios e confirma a criação.</br> </li><li>O sistema salva o novo torneio no banco de dados e exibe a lista de torneios atualizada.</li></ul> |
 | **Fluxos de exceção** | <ul><li> O usuário acessa o aplicativo como organizador. </br> <ul><li> O organizador cria um torneio sem colocar nenhum dado</br> </li><li>O sistema exibe uma mensagem indicando "Faltam informações obrigatórias."</br>  |
@@ -55,8 +56,8 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 | -: | :- |
 | **Atores** | Treinador |
 | **Funcionalidade** | O treinador de um time pode gerenciar os jogadores do seu time |
-| **Pré-condições** | Conexão com a internet, Login no sistema com o perfil de treinador, Treinador deve estar associado a pelo menos um time no sistema |
-| **Ação** | "O treinador gerencia seus jogadores, podendo visualizar, cadastrar, editar ou excluir informações relacionadas a eles."  |
+| **Pré-condições** | <ui><li> Conexão com a internet </li><li> Login no sistema com o perfil de treinador </li><li> Treinador deve estar associado a pelo menos um time no sistema |
+| **Ação** | O treinador gerencia seus jogadores, podendo visualizar, cadastrar, editar ou excluir informações relacionadas a eles.  |
 | **Fluxo básico** | <ul><li> O usuário acessa o aplicativo como treinador. </br> </li><li> O treinador acessa seu time. </br> </li><li> O sistema exibe a lista de jogadores associados ao time e informações do time. </br> </li><li> O treinador pode realizar uma das ações disponíveis no gerenciamento de jogadores: Visualizar, Adicionar, Editar e Excluir </br>|
 | **Fluxos alternativos** | <ul><li> O treinador tenta acessar um time, mas ainda não possui times cadastrados </br> <ul><li> O sistema exibe uma mensagem informando que ele deve primeiro criar um time."</br>  |
 | **Fluxos de exceção** | <ul><li> O treinador busca um jogador pelo nome, mas o jogador não está na lista</br> <ul><li>O sistema exibe uma mensagem indicando "Nenhum jogador encontrado."</br> |
@@ -76,8 +77,8 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 | -: | :- |
 | **Atores** | Organizador |
 | **Funcionalidade** | O organizador pode encerrar campeonatos após sua conclusão |
-| **Pré-condições** | Conexão com a internet, Login no sistema como organizador, Campeonato deve estar ativo |
-| **Ação** | "O Organizador encerra o campeonato, impedindo edições futuras e atualizando o status para encerrado."  |
+| **Pré-condições** | <ui><li> Conexão com a internet <br> </li><li> Login no sistema como organizador <br> </li><li> Campeonato deve estar ativo |
+| **Ação** | O Organizador encerra o campeonato, impedindo edições futuras e atualizando o status para encerrado.  |
 | **Fluxo básico** | <ul><li> O organizador acessa o aplicativo como organizador. </br> </li><li> O organizador navega até a seção de campeonatos. </br> </li><li> O sistema exibe a lista de campeonatos ativos. </br> </li><li> O organizador seleciona o torneio desejado e clica na opção "Encerrar Campeonato". </br> </li><li> O sistema solicita confirmação para encerrar. </br> </li><li> O organizador confirma a ação. </br> </li><li> O sistema atualiza o status do campeonato para "Encerrado" e impede edições futuras. |
 | **Fluxos alternativos** | <ul><li> O organizador tenta acessar a funcionalidade de encerrar um campeonato que já está encerrado. <ul><li> O sistema não mostra a opção de encerrar  |
 | **Fluxos de exceção** | <ul><li> O organizador tenta encerrar um campeonato, mas há pendências no sistema (ex.: resultados não cadastrados). </br> <ul><li> O sistema exibe uma mensagem indicando: "Não é possível encerrar o campeonato. Resolva as pendências antes de prosseguir." </br> |
@@ -95,11 +96,11 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <font size="2"><p style="text-align: center">Tabela x: </p></font>
 
-| **UC01** | **Gerenciar Partida** |
+| **UC01** | **Editar Partida** |
 | -: | :- |
 | *Atores* | Organizador |
 | *Funcionalidade* | O organizador deve ser capaz de visualizar e alterar as partidas que estão em andamento |
-| *Pré-condições* | - Conexão com a internet<br>- Login no sistema como organizador |
+| *Pré-condições* | <ui><li> Conexão com a internet<br> </li><li> Login no sistema como organizador |
 | *Ação* | O organizador analisa as partidas |
 | *Fluxo básico* | <ul><li>O organizador acessa o sistema. </li><li> O organizador realiza o login". </li><li>Após realizar o login, o organizador clica na opção "Campeonatos". </li><li> Na tela de "Campeonatos", apresentará uma lista com todos os campeonatos disponíveis. </li><li> O organizador seleciona um campeonato para editar suas partidas. </li><li> O sistema apresenta todas as partidas programadas do campeonato selecionado. </li><li> O organizador seleciona a opção "Editar Partida". </li><li> O sistema mostra as informações necessárias a serem preenchidas. </li><li> O organizador preenche as informações. </li><li> O sistema valida as informações. </li><li> O sistema salva as novas informações daquela partida.  |
 | *Fluxos alternativos* |   |
@@ -127,7 +128,7 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 |----------|--------------------|
 | **Atores** | Treinador |
 | **Funcionalidade** | O Treinador pode criar e mudar as características do time. |
-| **Pré-condições** | - Conexão com a internet<br>- Login no sistema como treinador |
+| **Pré-condições** | <ui><li> Conexão com a internet<br> </li><li> Login no sistema como treinador |
 | **Ação** | O treinador gerencia seus times, podendo visualizar, cadastrar, editar ou excluir informações relacionadas a eles. |
 | **Fluxo básico** | <ul><li>O usuário acessa o app como treinador.</li><li>O treinador navega até a seção de times.</li><li>O sistema exibe a lista de times ativos do treinador.</li><li>O treinador seleciona a opção "Criar time".</li><li>Excluir Time (FA01).</li><li>Editar Time (FA02).</li><li>O sistema mostra as informações necessárias a serem preenchidas.</li><li>O treinador preenche as informações.</li><li>O sistema valida as informações.</li><li>O sistema salva as informações do time.</li></ul> |
 | **Fluxos alternativos** | <ul><li>**FA01 – Excluir time**<ul><li>O treinador seleciona o ícone de lixeira.</li><li>O sistema exige a confirmação da ação de excluir.</li><li>O treinador confirma a exclusão clicando em "deletar".</li><li>O sistema exclui o time.</li><li>Fim do FA01.</li></ul></li><li>**FA02 – Editar time**<ul><li>O treinador seleciona o ícone de lápis.</li><li>O sistema mostra as informações necessárias a serem preenchidas.</li><li>O treinador preenche as informações.</li><li>O sistema valida as informações.</li><li>O sistema salva as informações do time.</li><li>Fim do FA02.</li></ul></li></ul> |
@@ -150,7 +151,7 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 | -: | :- |
 | **Atores** | Jogador |
 | **Funcionalidade** | O Jogador pode solicitar a entrada em um Time de um Campeonato existente. |
-| **Pré-condições** | - Conexão com a internet <br> - Existir Campeonato ativo e para data futura <br> - Estar em posse dos dados pessoais para cadastro |
+| **Pré-condições** | <ui><li> Conexão com a internet <br> </li><li> Existir Campeonato ativo e para data futura <br> </li><li> Estar em posse dos dados pessoais para cadastro |
 | **Ação** | O Jogador visualiza os Campeonatos marcados para acontecer futuramente, e solicita entrada em uma Equipe do Campeonato.  |
 | **Fluxo básico** | <ul><li> O Jogador acessa a página inicial da aplicação como usuário comum. </br> <li> No carrossel de Campeonatos Futuros, o Jogador seleciona o botão "Pedir para Participar" do Campeonato desejado. </br> <li> O sistema exibe os detalhes do Campeonato selecionado, juntamente com um formulário. </br> <li> O Jogador cadastra seus dados no formulário. </br> <li> O Jogador seleciona um Time, caso desejar. </br> <li> O Jogador aperta o botão "Solicitar Entrada", que enviará essa solicitação para o Organizador do evento, caso não tenha escolhido um Time, ou para o Treinador do Time que ele escolheu. </br> <li> Após ser aceito, o Jogador recebe um email com os dados para acessar a plataforma como um usuário Jogador. |
 | **Fluxos alternativos** | - |
