@@ -72,6 +72,10 @@ A Figura 3 a seguir, apresenta o Diagrama de Classes da aplicação TorneioPro, 
 
 ## Conclusão
 
+O diagrama de classes é uma ferramenta muito importante no desenvolvimento de sistemas orientados a objetos. Ele oferece uma representação clara e organizada da arquitetura, ajudando a entender como as classes, seus atributos, métodos e relacionamentos se conectam. Essa visão facilita tanto a identificação de melhorias no design quanto a antecipação de possíveis problemas antes da implementação.
+
+Em resumo, o uso do diagrama de classes torna o processo de desenvolvimento mais eficiente, organizado e alinhado com os objetivos do projeto.
+
 ## Bibliografia
 
 > 1. Serrano, Milene. Arquitetura E Desenho de Software AULA - Modelagem - Diagrama de Classe. Nov. 2024.
@@ -84,3 +88,4 @@ A Figura 3 a seguir, apresenta o Diagrama de Classes da aplicação TorneioPro, 
 |  |  |  |  |  | |
 | 1.0 | 26/11/2024 | Adicionando Notações do Diagrama de Classes e Correções | [Fabrício](https://github.com/FabricioDeQueiroz) e [Flávio Melo](https://github.com/flavioovatsug) |  | |
 | 1.1 | 27/11/2024 | Adiciona a parte metodológica utilizada | [Gustavo França](https://github.com/gustavofbs) |  | |
+| 1.2 | 29/11/2024 | Adiciona a parte Conclusão | [Italo Bruno](https://github.com/italobrunom) |  | |
