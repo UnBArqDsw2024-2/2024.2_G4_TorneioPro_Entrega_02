@@ -31,9 +31,9 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela 1: </p></font>
+<font size="2"><p style="text-align: center">Tabela 1-Gerenciar Campeonato: </p></font>
 
-| UC01 |  Gerenciar Campeonato |
+| UC01 |  **Gerenciar Campeonato** |
 | -: | :- |
 | **Atores** | Organizador |
 | **Funcionalidade** | O organizador pode criar e gerenciar campeonatos |
@@ -52,9 +52,9 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela 2: </p></font>
+<font size="2"><p style="text-align: center">Tabela 2-Gerenciar Jogador: </p></font>
 
-| UC02 |  Gerenciar Jogador |
+| UC02 |  **Gerenciar Jogador** |
 | -: | :- |
 | **Atores** | Treinador |
 | **Funcionalidade** | O treinador de um time pode gerenciar os jogadores do seu time |
@@ -73,9 +73,9 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela 3: </p></font>
+<font size="2"><p style="text-align: center">Tabela 3-Encerrar Campeonato: </p></font>
 
-| UC03 |  Encerrar Campeonato |
+| UC03 |  **Encerrar Campeonato** |
 | -: | :- |
 | **Atores** | Organizador |
 | **Funcionalidade** | O organizador pode encerrar campeonatos após sua conclusão |
@@ -96,7 +96,7 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela 4: </p></font>
+<font size="2"><p style="text-align: center">Tabela 4-Gerenciar Partida: </p></font>
 
 | **UC04** | **Gerenciar Partida** |
 | -: | :- |
@@ -124,7 +124,7 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela 5: </p></font>
+<font size="2"><p style="text-align: center">Tabela 5-Gerenciar Time: </p></font>
 
 | **UC05** | **Gerenciar Time** |
 | -: | :- |
@@ -148,7 +148,7 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela 6:  </p></font>
+<font size="2"><p style="text-align: center">Tabela 6-Aceitar Solicitação de Jogador:  </p></font>
 
 | **UC06** | **Aceitar Solicitação de Jogador** |
 | -: | :- |
@@ -175,7 +175,7 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela 7:</p></font>
+<font size="2"><p style="text-align: center">Tabela 7-Solicitar Entrada em Time:</p></font>
 
 | **UC07** |  **Solicitar Entrada em Time** |
 | -: | :- |
@@ -197,7 +197,7 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela 8:</p></font>
+<font size="2"><p style="text-align: center">Tabela 8-Login:</p></font>
 
 | **UC08** |  **Login** |
 | -: | :- |
@@ -219,7 +219,7 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela 9:</p></font>
+<font size="2"><p style="text-align: center">Tabela 9-Visualizar Campeonato:</p></font>
 
 | **UC09** |  **Visualizar Campeonato** |
 | -: | :- |
@@ -241,9 +241,9 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 
 
-<font size="2"><p style="text-align: center">Tabela 10:</p></font>
+<font size="2"><p style="text-align: center">Tabela 10-Cadastro de Usuário:</p></font>
 
-| **UC010** | **Cadastro de Usuário** |
+| **UC10** | **Cadastro de Usuário** |
 |----------|--------------------------|
 | **Atores** | Usuário |
 | **Funcionalidade** | O usuário pode se cadastrar no sistema para obter acesso às funcionalidades. |
@@ -261,6 +261,29 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 </center>
 
+<center>
+
+<font size="2"><p style="text-align: center">Tabela 11-Gerenciar Treinadores: </p></font>
+
+| **UC11** | **Gerenciar Treinadores** |
+| -: | :- |
+| **Atores** | Organizador |
+| **Funcionalidade** | O Organizador pode criar e mudar as características dos Treinadores. |
+| **Pré-condições** | <ui><li> Conexão com a internet<br> </li><li> Login no sistema como Organizador |
+| **Ação** | O Organizador gerencia os Treinadores, podendo visualizar, cadastrar, editar ou excluir informações relacionadas a eles. |
+| **Fluxo básico** | <ul><li>O usuário acessa o app como organizador.</li><li>O Organizador navega até a seção de Treinadores.</li><li>O sistema exibe a lista de Treinadores .</li><li>O organizador seleciona a opção "Criar Treinador".</li><li>Excluir Treinador (FA01).</li><li>Editar Treinador (FA02).</li><li>O sistema mostra as informações necessárias a serem preenchidas.</li><li>O organizador preenche as informações.</li><li>O sistema valida as informações.</li><li>O sistema salva as informações do treinador.</li></ul> |
+| **Fluxos alternativos** | <ul><li>**FA01 – Excluir treinador**<ul><li>O organizador seleciona o ícone de lixeira.</li><li>O sistema exige a confirmação da ação de excluir.</li><li>O organizador confirma a exclusão clicando em "deletar".</li><li>O sistema exclui o treinador.</li><li>Fim do FA01.</li></ul></li><li>**FA02 – Editar treinador**<ul><li>O organizador seleciona o ícone de lápis.</li><li>O sistema mostra as informações necessárias a serem preenchidas.</li><li>O treinador preenche as informações.</li><li>O sistema valida as informações.</li><li>O sistema salva as informações do treinador.</li><li>Fim do FA02.</li></ul></li></ul></li><li>**FA03 – Visualizar detalhes do time**<ul><li>O organizador seleciona o ícone de olho.</li><li>O sistema mostra as informações detalhadas do treinador.</li><li>Fim do FA03.</li></ul> | |
+| **Fluxos de exceção** | <ul><li>**FE01** - O organizado tenta criar um treinador mas não preenche informações obrigatórias<ul><li>O sistema exibe uma mensagem indicando: "Não é possível criar o treinador. Por favor, preencher todos os campos."</li></ul></li><li>**FE02** - O organizado tenta editar um treinador mas não preenche informações obrigatórias<ul><li>O sistema exibe uma mensagem indicando: "Não é possível editar o treinador. Por favor, preencher todos os campos."</li></ul></li></ul> |
+| **Pós-condições** | <ul><li>**POS01.** O treinador é criado e armazenado no banco.</li><li>**POS02.** O treinador é excluido da base de dados (FA01) .</li><li>**POS03.** As informações do treinador são atualizadas (FA02)  |
+| **Data da criação** | 29/11/2024 |
+| **Rastreabilidade** | - | 
+
+
+
+<font size="2"><p style="text-align: center">Autor: [Caio Sulz](https://github.com/CaioSulz) , [Christian](https://github.com/crstyhs) e [Ian Lucca](https://github.com/IanLucca12).</p></font>
+
+</center>
+
 ## Bibliografia
 
 SILVA, M. R. Análise e Projeto Orientado a Objetos com UML. 2ª ed. São Paulo: Atlas, 2013.
@@ -270,7 +293,8 @@ LUCIDCHART. Diagrama de Caso de Uso UML: Guia Completo. Disponível em: https://
 
 |Versão|Data|Descrição|Autor|Revisor| Detalhes da revisão |
 |:----:|----|---------|-----|:-------:|-----| 
-| 1.0 | 27/11/2024 | Criação do documento com a inserção de casos de uso | [Squad 1](../../SubGrupo/squad1.md), [Squad 2](../../SubGrupo/squad2.md) e [Squad 3](../../SubGrupo/squad3.md) | [Oscar Brito](https://github.com/OscarDeBrito) | incremento dos Fluxos alternativos faltantes |
-| 1.1 | 27/11/2024 | Adiciona o caso de uso "Editar Partida" e corrige a formatação dos demais | [Flávio Melo](https://github.com/flavioovatsug), [Gustavo França](https://github.com/gustavofbs) e [Oscar Brito](https://github.com/OscarDeBrito) | [Oscar Brito](https://github.com/OscarDeBrito) | alteração de editar para gerenciar partida, reescrita do caso de uso |
-| 1.2 | 27/11/2024 | Adiciona o caso de uso "Aceitar Solicitação de Jogador" | [Gustavo França](https://github.com/gustavofbs), [Flávio Melo](https://github.com/flavioovatsug) e [Yan Werlley](https://github.com/YanWerlley) | [Oscar Brito](https://github.com/OscarDeBrito) | padronizarção do caso de uso |
-| 1.3 | 29/11/2024 | Revisão de todos os casos de uso, criação do caso de uso de cadastro| [Oscar Brito](https://github.com/OscarDeBrito)  | | |
+| 1.0 | 27/11/2024 | Criação do documento com a inserção de casos de uso | [Squad 1](../../SubGrupo/squad1.md), [Squad 2](../../SubGrupo/squad2.md) e [Squad 3](../../SubGrupo/squad3.md) | |  |
+| 1.1 | 27/11/2024 | Adiciona o caso de uso "Editar Partida" e corrige a formatação dos demais | [Flávio Melo](https://github.com/flavioovatsug), [Gustavo França](https://github.com/gustavofbs) e [Oscar Brito](https://github.com/OscarDeBrito) | | |
+| 1.2 | 27/11/2024 | Adiciona o caso de uso "Aceitar Solicitação de Jogador" | [Gustavo França](https://github.com/gustavofbs), [Flávio Melo](https://github.com/flavioovatsug) e [Yan Werlley](https://github.com/YanWerlley) |  | |
+| 1.3 | 29/11/2024 ||   | | |
+| 1.4 | 29/11/2024 | Criação do caso de uso de gerenciar treinadores| [Caio Sulz](https://github.com/CaioSulz) , [Christian](https://github.com/crstyhs) e [Ian Lucca](https://github.com/IanLucca12)  |[Oscar Brito](https://github.com/OscarDeBrito)  |Padronização dos casos de uso, criação de documentos faltantes - Cadastro e inclusão dos fluxos alternativos faltantes |
