@@ -39,9 +39,9 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 | **Funcionalidade** | O organizador pode criar e gerenciar campeonatos |
 | **Pré-condições** | <uii><li> Conexão com a internet </li><li> Login no sistema como organizador |
 | **Ação** | O Organizador gerencia o campeonato, podendo visualizar, cadastrar, editar ou excluir informações relacionadas.  |
-| **Fluxo básico** | <ul><li> O usuário acessa o aplicativo como organizador. </br> </li><li> O organizador acessa os campeonatos. </br> </li><li> O sistema exibe a lista de campeonatos. </br> </li><li> O organizador pode realizar uma das ações disponíveis no gerenciamento de jogadores: Criar, Visualizar, Editar e Excluir </br> |
-| **Fluxos alternativos** | <ul><li>O organizador acessa a funcionalidade de campeonatos.</br></li><li>O sistema exibe uma mensagem informando "Nenhum campeonato encontrado".</br></li><li>O sistema apresenta a opção "Criar campeonato".</br> </li><li>O organizador clica na opção "Criar campeonato".</br> </li><li>O sistema exibe o formulário de criação de campeonato.</br> </li><li>O organizador insere os dados obrigatórios e confirma a criação.</br> </li><li>O sistema salva o novo campeonato no banco de dados e exibe a lista de campeonatos atualizada.</li></ul> |
-| **Fluxos de exceção** | <ul><li> O usuário acessa o aplicativo como organizador. </br> <ul><li> O organizador cria um campeonato sem colocar nenhum dado</br> </li><li>O sistema exibe uma mensagem indicando "Faltam informações obrigatórias."</br>  |
+| **Fluxo básico** | <ul><li> O usuário acessa o aplicativo como organizador. </br> </li><li> O organizador acessa os campeonatos. </br> </li><li> O sistema exibe a lista de campeonatos. </br></li><ul> Excluir jogador (FA01) </br> </ul><ul> Editar jogador (FA2) </br> </ul><ul> visualizar detalhes do jogador (FA03) </ul></br> <li>O organizador acessa a funcionalidade de campeonatos.</br></li><li>O sistema exibe uma mensagem informando "Nenhum campeonato encontrado".</br></li><li>O sistema apresenta a opção "Criar campeonato".</br> </li><li>O organizador clica na opção "Criar campeonato".</br> </li><li>O sistema exibe o formulário de criação de campeonato.</li><li>O organizador insere os dados obrigatórios e confirma a criação.</br> </li><li>O sistema salva o novo campeonato no banco de dados e exibe a lista de campeonatos atualizada.</li></ul> |
+| **Fluxos alternativos** | <ul><li>**FA01 – Excluir Campeonato**<ul><li>O organizador seleciona o ícone de lixeira.</li><li>O sistema exige a confirmação da ação de excluir.</li><li>O organizador confirma a exclusão clicando em "deletar".</li><li>O sistema exclui o Campeonato.</li><li>Fim do FA01.</li></ul></li><li>**FA02 – Editar Campeonato**<ul><li>O organizador seleciona o ícone de lápis.</li><li>O sistema mostra as informações necessárias a serem preenchidas.</li><li>O organizador preenche as informações.</li><li>O sistema valida as informações.</li><li>O sistema salva as informações do Campeonato.</li><li>Fim do FA02.</li></ul></li><li>**FA03 – Visualizar detalhes do Campeonato**<ul><li>O organizador seleciona o ícone de olho.</li><li>O sistema mostra as informações detalhadas do Campeonato.</li><li>Fim do FA03.</li></ul> |
+| **Fluxos de Exceção** | <ul><li>FE01 – Dados obrigatórios não preenchidos<ul><li>O organizador tenta criar um campeonato sem inserir os dados obrigatórios.</li><li>O sistema exibe uma mensagem de erro indicando: "Faltam informações obrigatórias."</li><li>O sistema retorna para o formulário de criação de campeonato.</li></ul></li></ul> |
 | **Pós-condições** |<ul><li> POS01. As alterações feitas no gerenciamento de campeonato são salvas no banco de dados</br> |
 | **Data da criação** | 23/11/2024 |
 | **Rastreabilidade** | |
@@ -62,8 +62,8 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 | **Ação** | O treinador gerencia seus jogadores, podendo visualizar, cadastrar, editar ou excluir informações relacionadas a eles.  |
 | **Fluxo básico** | <ul><li> O usuário acessa o aplicativo como treinador. </br> </li><li> O treinador acessa seu time. </br> </li><li> O sistema exibe a lista de jogadores associados ao time e informações do time. </br> </li><ul> Excluir jogador (FA01) </br> </ul><ul> Editar jogador (FA2) </br> </ul><ul> visualizar detalhes do jogador (FA03) </ul></br><li> O treinador pode clicar no botão de adicionar um novo jogador. </br><li>O sistema mostra as informações necessárias a serem preenchidas.</li><li>O treinador preenche as informações.</li><li>O sistema valida as informações.</li></li>
 | **Fluxos alternativos** | <ul><li>**FA01 – Excluir Jogador**<ul><li>O treinador seleciona o ícone de lixeira.</li><li>O sistema exige a confirmação da ação de excluir.</li><li>O treinador confirma a exclusão clicando em "deletar".</li><li>O sistema exclui o jogador.</li><li>Fim do FA01.</li></ul></li><li>**FA02 – Editar jogador**<ul><li>O treinador seleciona o ícone de lápis.</li><li>O sistema mostra as informações necessárias a serem preenchidas.</li><li>O treinador preenche as informações.</li><li>O sistema valida as informações.</li><li>O sistema salva as informações do jogador.</li><li>Fim do FA02.</li></ul></li><li>**FA03 – Visualizar detalhes do jogador**<ul><li>O treinador seleciona o ícone de olho.</li><li>O sistema mostra as informações detalhadas do jogador.</li><li>Fim do FA03.</li></ul> |
-| **Fluxos de exceção** | <ul><li> O treinador tenta acessar um time, mas ainda não possui times cadastrados </br> <ul><li> O sistema exibe uma mensagem informando que ele deve primeiro criar um time."</br> <ul><li> O treinador busca um jogador pelo nome, mas o jogador não está na lista</br> </ul><li>O sistema exibe uma mensagem indicando "Nenhum jogador encontrado."</br> |
-| **Pós-condições** | <ul><li> As alterações feitas no gerenciamento de jogadores são salvas no banco de dados</br> <ul><li> O treinador visualiza a lista atualizada de jogadores. |
+| **Fluxos de Exceção** | <ul><li>FE01 – Nenhum time cadastrado<ul><li>O treinador tenta acessar a seção de times, mas ainda não possui times cadastrados.</li><li>O sistema exibe uma mensagem informando: "Nenhum time encontrado. Por favor, crie um time primeiro."</li></ul></li><li>FE02 – Jogador não encontrado<ul><li>O treinador busca um jogador pelo nome, mas o jogador não está na lista.</li><li>O sistema exibe uma mensagem indicando: "Nenhum jogador encontrado."</li></ul></li></ul> | 
+|**Pós-condições** | <ul><li>POS01. As alterações feitas no gerenciamento de jogadores são salvas no banco de dados.</li><li>POS02. O treinador visualiza a lista atualizada de jogadores.</li></ul> |
 | **Data da criação** | 23/11/2024 |
 | **Rastreabilidade** | |
 
@@ -82,8 +82,8 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 | **Pré-condições** | <ui><li> Conexão com a internet <br> </li><li> Login no sistema como organizador <br> </li><li> Campeonato deve estar ativo |
 | **Ação** | O Organizador encerra o campeonato, impedindo edições futuras e atualizando o status para encerrado.  |
 | **Fluxo básico** | <ul><li> O organizador acessa o aplicativo como organizador. </br> </li><li> O organizador navega até a seção de campeonatos. </br> </li><li> O sistema exibe a lista de campeonatos ativos. </br> </li><li> O organizador seleciona o campeonato desejado e clica na opção "Encerrar Campeonato". </br> </li><li> O sistema solicita confirmação para encerrar. </br> </li><li> O organizador confirma a ação. </br> </li><li> O sistema atualiza o status do campeonato para "Encerrado" e impede edições futuras. |
-| **Fluxos alternativos** | <ul><li> O organizador tenta acessar a funcionalidade de encerrar um campeonato que já está encerrado. <ul><li> O sistema não mostra a opção de encerrar  |
-| **Fluxos de exceção** | <ul><li> O organizador tenta encerrar um campeonato, mas há pendências no sistema (ex.: resultados não cadastrados). </br> <ul><li> O sistema exibe uma mensagem indicando: "Não é possível encerrar o campeonato. Resolva as pendências antes de prosseguir." </br> |
+| **Fluxos alternativos** | Não há
+| **Fluxos de exceção** | <ul><li>FE01 – Campeonato já encerrado<ul><li>O organizador tenta acessar a funcionalidade de encerrar um campeonato que já está encerrado.</li><li>O sistema não mostra a opção de encerrar.</li></ul></li><li>FE02 – Pendências no sistema<ul><li>O organizador tenta encerrar um campeonato, mas há pendências no sistema (ex.: resultados não cadastrados).</li><li>O sistema exibe uma mensagem indicando: "Não é possível encerrar o campeonato. Resolva as pendências antes de prosseguir."</li></ul></li></ul>  |
 | **Pós-condições** |<ul><li> POS01. O status do campeonato é atualizado para "Encerrado" no banco de dados. </br> <ul><li> POS02. O campeonato é exibido na lista de históricos encerrados. |
 | **Data da criação** | 24/11/2024 |
 | **Rastreabilidade** |  |
@@ -96,20 +96,20 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela x: </p></font>
+<font size="2"><p style="text-align: center">Tabela 4: </p></font>
 
-| **UC01** | **Editar Partida** |
+| **UC04** | **Gerenciar Partida** |
 | -: | :- |
-| *Atores* | Organizador |
-| *Funcionalidade* | O organizador deve ser capaz de visualizar e alterar as partidas que estão em andamento |
-| *Pré-condições* | <ui><li> Conexão com a internet<br> </li><li> Login no sistema como organizador |
-| *Ação* | O organizador analisa as partidas |
-| *Fluxo básico* | <ul><li>O organizador acessa o sistema. </li><li> O organizador realiza o login". </li><li>Após realizar o login, o organizador clica na opção "Campeonatos". </li><li> Na tela de "Campeonatos", apresentará uma lista com todos os campeonatos disponíveis. </li><li> O organizador seleciona um campeonato para editar suas partidas. </li><li> O sistema apresenta todas as partidas programadas do campeonato selecionado. </li><li> O organizador seleciona a opção "Editar Partida". </li><li> O sistema mostra as informações necessárias a serem preenchidas. </li><li> O organizador preenche as informações. </li><li> O sistema valida as informações. </li><li> O sistema salva as novas informações daquela partida.  |
-| *Fluxos alternativos* |   |
-| *Fluxos de exceção* | <ul><li> FE01 - O organizador tenta editar uma partida mas não preenche informações obrigatórias </br> <ul><li> O sistema exibe uma mensagem indicando: "Não é possível editar a partida. Por favor, preencher todos os campos."   |
-| *Pós-condições* | <ul><li>**POS01.** O time é editado e armazenado no banco. |
-| *Data da criação* | 23/11/2024 |
-| *Rastreabilidade* | |
+| **Atores** | Organizador |
+| **Funcionalidade** | O organizador pode gerenciar as partidas de um campeonato, incluindo a criação, visualização, edição e exclusão. |
+| **Pré-condições** | <ul><li>Conexão com a internet.</li><li>Login no sistema como organizador.</li></ul> |
+| **Ação** | O organizador gerencia as partidas de um campeonato. |
+| **Fluxo Básico** | <ul><li>O organizador acessa o sistema.</li><li>O organizador realiza o login.</li><li>O organizador clica na opção "Campeonatos".</li><li>Na tela de "Campeonatos", o sistema apresenta uma lista com todos os campeonatos disponíveis.</li><li>O organizador seleciona um campeonato.</li><li>O sistema exibe a lista de partidas programadas do campeonato selecionado.</li><li>O organizador clica no botão "Criar Partida".</li><li>O sistema exibe o formulário com as informações necessárias para criação da partida.</li><li>O organizador preenche as informações obrigatórias.</li><li>O sistema valida as informações fornecidas.</li><li>O sistema salva os dados da nova partida no banco de dados.</li></ul> |
+| **Fluxos Alternativos** | <ul><li>**FA01 – Excluir Partida**<ul><li>O organizador seleciona o ícone de lixeira ao lado de uma partida.</li><li>O sistema exige a confirmação da exclusão.</li><li>O organizador confirma a exclusão clicando em "Deletar".</li><li>O sistema exclui a partida do banco de dados.</li><li>Fim do FA01.</li></ul></li><li>**FA02 – Editar Partida**<ul><li>O organizador seleciona o ícone de lápis ao lado de uma partida.</li><li>O sistema exibe o formulário com os dados da partida previamente preenchidos.</li><li>O organizador altera as informações desejadas.</li><li>O sistema valida as informações.</li><li>O sistema salva as alterações no banco de dados.</li><li>Fim do FA02.</li></ul></li><li>**FA03 – Visualizar Partida**<ul><li>O organizador seleciona o ícone de olho ao lado de uma partida.</li><li>O sistema exibe os detalhes da partida selecionada.</li><li>Fim do FA03.</li></ul></li></ul> |
+| **Fluxos de Exceção** | <ul><li>**FE01 – Dados obrigatórios não preenchidos**<ul><li>O organizador tenta criar ou editar uma partida, mas não preenche os campos obrigatórios.</li><li>O sistema exibe uma mensagem de erro indicando: "Não é possível salvar a partida. Preencha todos os campos obrigatórios."</li></ul></li></ul> |
+| **Pós-condições** | <ul><li>**POS01.** As informações das partidas criadas, editadas ou excluídas são atualizadas no banco de dados.</li><li>**POS02.** O organizador visualiza a lista atualizada de partidas do campeonato.</li></ul> |
+| **Data da criação** | 24/11/2024 |
+| **Rastreabilidade** | Não se aplica. |
 
 <font size="2"><p style="text-align: center">Autor: [Gustavo França](https://github.com/gustavofbs), [Flávio Melo](https://github.com/flavioovatsug) e [Oscar Brito](https://github.com/OscarDeBrito) .</p></font>
 
@@ -124,10 +124,10 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela 4: Gerenciar Time</p></font>
+<font size="2"><p style="text-align: center">Tabela 5: </p></font>
 
-| **UC04** | **Gerenciar Time** |
-|----------|--------------------|
+| **UC05** | **Gerenciar Time** |
+| -: | :- |
 | **Atores** | Treinador |
 | **Funcionalidade** | O Treinador pode criar e mudar as características do time. |
 | **Pré-condições** | <ui><li> Conexão com a internet<br> </li><li> Login no sistema como treinador |
@@ -148,10 +148,10 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela 5: *Aceitar Solicitação de Jogador </p></font>
+<font size="2"><p style="text-align: center">Tabela 6:  </p></font>
 
-| **UC04** | **Aceitar Solicitação de Jogador** |
-|----------|--------------------|
+| **UC06** | **Aceitar Solicitação de Jogador** |
+| -: | :- |
 | **Atores** | Organizador |
 | **Funcionalidade** | O organizador aceita uma solicitação de um jogador para ingressar em um time. |
 | **Pré-condições** | <ui><li> Conexão com a internet<br> </li><li> Login no sistema como organizador </li><li> O jogador já deve estar cadastrado no sistema. </li><li> O jogador deve ter solicitado entrada em um time. |
@@ -175,9 +175,9 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela 5: UC05 - Solicitar Entrada em Time</p></font>
+<font size="2"><p style="text-align: center">Tabela 7:</p></font>
 
-| **UC05** |  **Solicitar Entrada em Time** |
+| **UC07** |  **Solicitar Entrada em Time** |
 | -: | :- |
 | **Atores** | Jogador |
 | **Funcionalidade** | O Jogador pode solicitar a entrada em um Time de um Campeonato existente. |
@@ -197,15 +197,15 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela 6: UC06 - Realizar Login</p></font>
+<font size="2"><p style="text-align: center">Tabela 8:</p></font>
 
-| **UC06** |  **Login** |
+| **UC08** |  **Login** |
 | -: | :- |
 | **Atores** | Usuário |
 | **Funcionalidade** | O usuário poderá acessar o sistema utilizando cadastro feito previamente. |
 | **Pré-condições** | <ui><li> Conexão com a internet <br> </li><li> Estar na página de login <br> </li><li> Estar em posse dos dados pessoais cadastrados (login e senha)  |
 | **Ação** | O usuário realiza o Login para acessar as funcionalidades do sistema.  |
-| **Fluxo básico** | <ul><li> O usuário acessa o sistema. </br> <li> O usuário seleciona a opção de "Entrar". </br> <li> O sistema exibe os campos de preenchimento de login e senha. </br> <li> O usuário insere as informações de acordo com oque foi cadastrado. </br> <li> O sistema redireciona para a tela inicial de usuário. |
+| **Fluxo básico** | <ul><li> O usuário acessa o sistema. </br> <li> O usuário seleciona a opção de "Entrar".<ul><li> **Esquecer a Senha (FA01)**</br> </ul><li> O sistema exibe os campos de preenchimento de login e senha. </br> <li> O usuário insere as informações de acordo com oque foi cadastrado. </br> <li> O sistema redireciona para a tela inicial de usuário. |
 | **Fluxos alternativos** | <ul><li>**FA01 – Esquecer a Senha**<ul><li>O usuário clica na opção de "Esqueceu a senha?".</li><li>É redirecionado para uma página de recuperação de senha.</li><li>O usuário digita o e-mail cadastrado e clica para enviar a recuperação de senha.</li><li>Ao acessar o seu e-mail cadastrado, o usuário acessa a mensagem de recuperação de senha enviada, e clica no link.</li><li> Ao acessar a página, o usuário digita a senha nova e sua respectiva confirmação, e após clicar em redefinir, aparece a mensagem de confirmação da ação realizada.</li></ul>|
 | **Fluxos de exceção** | <ul><li> **FE01.** O usário tenta realizar o login sem estar cadastrado. </br> <ul><li> O sistema exibe uma mensagem indicando: "Não é possível realizar Login. Dados inválidos ou usuário não cadastrado." </br> |
 | **Pós-condições** |<ul><li> **POS01.** O usuário poderá acessar as funcionalidades disponíveis de acordo com seu cadastro(Jogador, Treinador, Organizador) </br> |
@@ -219,9 +219,9 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 <center>
 
-<font size="2"><p style="text-align: center">Tabela 7 : UC07 - Visualizar Campeonato</p></font>
+<font size="2"><p style="text-align: center">Tabela 9:</p></font>
 
-| **UC07** |  **Visualizar Campeonato** |
+| **UC09** |  **Visualizar Campeonato** |
 | -: | :- |
 | **Atores** | Jogador, Treinador |
 | **Funcionalidade** | O usuário poderá visualizar informações dos campeonatos disponíveis. |
@@ -239,6 +239,28 @@ O diagrama de caso de uso é uma representação visual que sintetiza as intera�
 
 </center>
 
+
+
+<font size="2"><p style="text-align: center">Tabela 10:</p></font>
+
+| **UC010** | **Cadastro de Usuário** |
+|----------|--------------------------|
+| **Atores** | Usuário |
+| **Funcionalidade** | O usuário pode se cadastrar no sistema para obter acesso às funcionalidades. |
+| **Pré-condições** | <ul><li>Conexão com a internet.</li></ul> |
+| **Ação** | O usuário realiza o cadastro no sistema, fornecendo as informações obrigatórias para a criação de sua conta. |
+| **Fluxo básico** | <ul><li>O usuário acessa o sistema pela interface inicial.</li><li>O sistema exibe a opção "Cadastrar-se".</li><li>O usuário seleciona a opção "Cadastrar-se".</li><li>O sistema exibe o formulário de cadastro com campos obrigatórios (nome, e-mail, senha, etc.).</li><li>O usuário preenche todos os campos obrigatórios.</li><li>O sistema valida as informações fornecidas.</li><li>O sistema salva os dados do usuário no banco de dados.</li><li>O sistema exibe uma mensagem de confirmação: "Cadastro realizado com sucesso!".</li></ul> |
+| **Fluxos alternativos** | <ul><li>**FA01 – Recuperar senha**<ul><li>O usuário acessa a tela de login.</li><li>O usuário seleciona a opção "Esqueci minha senha".</li><li>O sistema exibe um campo para inserir o e-mail cadastrado.</li><li>O usuário insere o e-mail cadastrado.</li><li>O sistema envia um link para recuperação de senha ao e-mail do usuário.</li><li>O usuário redefine a senha utilizando o link enviado.</li><li>Fim do FA01.</li></ul></li></ul> |
+| **Fluxos de exceção** | <ul><li>**FE01 – Campos obrigatórios não preenchidos**<ul><li>O usuário tenta se cadastrar, mas não preenche os campos obrigatórios.</li><li>O sistema exibe uma mensagem de erro indicando: "Não é possível realizar o cadastro. Preencha todos os campos obrigatórios."</li></ul></li><li>**FE02 – E-mail já cadastrado**<ul><li>O usuário insere um e-mail já cadastrado.</li><li>O sistema exibe uma mensagem de erro indicando: "O e-mail informado já está em uso."</li></ul></li></ul> |
+| **Pós-condições** | <ul><li>**POS01.** O cadastro do usuário é armazenado no banco de dados com sucesso.</li><li>**POS02.** O usuário pode acessar o sistema utilizando suas credenciais cadastradas.</li></ul> |
+| **Data da criação** | 24/11/2024 |
+| **Rastreabilidade** | Não se aplica. |
+
+<font size="2"><p style="text-align: center">Autor: [Oscar Brito](https://github.com/OscarDeBrito).</p></font>
+
+
+</center>
+
 ## Bibliografia
 
 SILVA, M. R. Análise e Projeto Orientado a Objetos com UML. 2ª ed. São Paulo: Atlas, 2013.
@@ -248,6 +270,7 @@ LUCIDCHART. Diagrama de Caso de Uso UML: Guia Completo. Disponível em: https://
 
 |Versão|Data|Descrição|Autor|Revisor| Detalhes da revisão |
 |:----:|----|---------|-----|:-------:|-----| 
-| 1.0 | 27/11/2024 | Criação do documento com a inserção de casos de uso | [Squad 1](../../SubGrupo/squad1.md), [Squad 2](../../SubGrupo/squad2.md) e [Squad 3](../../SubGrupo/squad3.md) |  | |
-| 1.1 | 27/11/2024 | Adiciona o caso de uso "Editar Partida" e corrige a formatação dos demais | [Flávio Melo](https://github.com/flavioovatsug), [Gustavo França](https://github.com/gustavofbs) e [Oscar Brito](https://github.com/OscarDeBrito) |  | |
-| 1.2 | 27/11/2024 | Adiciona o caso de uso "Aceitar Solicitação de Jogador" | [Gustavo França](https://github.com/gustavofbs), [Flávio Melo](https://github.com/flavioovatsug) e [Yan Werlley](https://github.com/YanWerlley) |  | |
+| 1.0 | 27/11/2024 | Criação do documento com a inserção de casos de uso | [Squad 1](../../SubGrupo/squad1.md), [Squad 2](../../SubGrupo/squad2.md) e [Squad 3](../../SubGrupo/squad3.md) | [Oscar Brito](https://github.com/OscarDeBrito) | incremento dos Fluxos alternativos faltantes |
+| 1.1 | 27/11/2024 | Adiciona o caso de uso "Editar Partida" e corrige a formatação dos demais | [Flávio Melo](https://github.com/flavioovatsug), [Gustavo França](https://github.com/gustavofbs) e [Oscar Brito](https://github.com/OscarDeBrito) | [Oscar Brito](https://github.com/OscarDeBrito) | alteração de editar para gerenciar partida, reescrita do caso de uso |
+| 1.2 | 27/11/2024 | Adiciona o caso de uso "Aceitar Solicitação de Jogador" | [Gustavo França](https://github.com/gustavofbs), [Flávio Melo](https://github.com/flavioovatsug) e [Yan Werlley](https://github.com/YanWerlley) | [Oscar Brito](https://github.com/OscarDeBrito) | padronizarção do caso de uso |
+| 1.3 | 29/11/2024 | Revisão de todos os casos de uso, criação do caso de uso de cadastro| [Oscar Brito](https://github.com/OscarDeBrito)  | | |
