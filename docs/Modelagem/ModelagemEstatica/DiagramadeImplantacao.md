@@ -12,9 +12,9 @@ O objetivo do diagrama de Implantação é fornecer uma visão detalhada e organ
 
 Essa abordagem contribui para o alinhamento da equipe de desenvolvimento e demais envolvidos no projeto, promovendo uma visão clara e compartilhada de como os recursos de hardware e software serão integrados para suportar a aplicação.
 
-## Diagrama - versão 1
+## Diagrama de Implantação - versão 1
 
-![DiagramaDeImplantação](../../Assets/diagrama-implementacao.png)
+![DiagramaDeImplantação](../../Assets/diagrama-implantacao.png)
 
 Autores: [Christian](https://github.com/crstyhs), [Ian Lucca](https://github.com/IanLucca12), [Caio Sulz](https://github.com/CaioSulz), [Harryson Campos](https://github.com/harry-cmartin)
 
@@ -35,4 +35,4 @@ Autores: [Christian](https://github.com/crstyhs), [Ian Lucca](https://github.com
 |1.3|27/11/2024|Correções e adição das referencias| [Harryson Campos](https://github.com/harry-cmartin)|
 |1.4|27/11/2024|Correções | [Caio Sulz](https://github.com/CaioSulz)|
 |1.5|28/11/2024|Correções no caminho de Assets e na imagem | [Caio Sulz](https://github.com/CaioSulz)|
-
+|1.6|29/11/2024| Corrigindo titulo da imagem do diagrama e também a imagem do diagrama | [Fabrício](https://github.com/FabricioDeQueiroz)|
