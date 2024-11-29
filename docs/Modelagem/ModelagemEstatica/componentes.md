@@ -143,4 +143,4 @@ O banco de dados armazena informações essenciais para o sistema, como dados de
 |Versão|Data|Descrição|Autor|Revisor| Detalhes da revisão |
 |:----:|----|---------|-----|:-------:|-----| 
 | 1.0 | 28/11/2024 | Criação do documento | [Squad 3](../../SubGrupo/squad3.md)|  | |
-| 1.1 | 28/11/2024 | Inserção do Diagrama e documentação | [Squad 3](../../SubGrupo/squad3.md)| [Christian](https://github.com/crstyhs) | Adição da bibliografia|
+| 1.1 | 28/11/2024 | Inserção do Diagrama e documentação | [Squad 3](../../SubGrupo/squad3.md)| [Christian](https://github.com/crstyhs) e [Fabrício de Queiroz](https://github.com/FabricioDeQueiroz) | Adição da bibliografia|
