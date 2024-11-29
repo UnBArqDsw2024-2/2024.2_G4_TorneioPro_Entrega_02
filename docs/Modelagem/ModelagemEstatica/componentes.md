@@ -1,4 +1,4 @@
-# 2.x Diagrama de Componentes
+# 2.1.1 Diagrama de Componentes
 
 ## Introdução
 
@@ -133,10 +133,14 @@ O banco de dados armazena informações essenciais para o sistema, como dados de
 
 <font size="2"><p style="text-align: center">Autores: [Artur Jackson](https://github.com/artur-jack), [Oscar de Brito](https://github.com/OscarDeBrito), [Gabriel esteves](https://github.com/GabrielMEsteves)  e [Yan Luca Viana](https://github.com/yan-luca) </p></font>
 
+## Bibliografia
+
+> 1. UML Diagrams. Component Diagram. Disponível em: https://www.uml-diagrams.org/component-diagrams.html. Acesso em: 29 nov. 2024.
+> 2. FOWLER, Martin. UML Essencial: um breve guia à linguagem de modelagem padrão. 3ª ed. Disponível em: https://archive.org/details/uml-essencial. Acesso em: 29 nov. 2024.
 
 ## Histórico de Versão
 
 |Versão|Data|Descrição|Autor|Revisor| Detalhes da revisão |
 |:----:|----|---------|-----|:-------:|-----| 
 | 1.0 | 28/11/2024 | Criação do documento | [Squad 3](../../SubGrupo/squad3.md)|  | |
-| 1.1 | 28/11/2024 | Inserção do Diagrama e documentação | [Squad 3](../../SubGrupo/squad3.md)|  | |
+| 1.1 | 28/11/2024 | Inserção do Diagrama e documentação | [Squad 3](../../SubGrupo/squad3.md)| [Christian](https://github.com/crstyhs) | Adição da bibliografia|
