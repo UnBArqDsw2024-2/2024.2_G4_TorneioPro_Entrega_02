@@ -88,4 +88,4 @@ Em resumo, o uso do diagrama de classes torna o processo de desenvolvimento mais
 |  |  |  |  |  | |
 | 1.0 | 26/11/2024 | Adicionando Notações do Diagrama de Classes e Correções | [Fabrício](https://github.com/FabricioDeQueiroz) e [Flávio Melo](https://github.com/flavioovatsug) |  | |
 | 1.1 | 27/11/2024 | Adiciona a parte metodológica utilizada | [Gustavo França](https://github.com/gustavofbs) |  | |
-| 1.2 | 29/11/2024 | Adiciona a parte Conclusão | [Italo Bruno](https://github.com/italobrunom) |  | |
+| 1.2 | 29/11/2024 | Adiciona a parte Conclusão | [Italo Bruno](https://github.com/italobrunom) |[Oscar de Brito](https://github.com/OscarDeBrito)  | Não foram encontrado problemas na revisão  | |
