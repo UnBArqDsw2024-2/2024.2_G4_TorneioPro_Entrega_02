@@ -35,7 +35,7 @@ O diagrama foi desenvolvido de acordo com os Frameworks Django para o backend e 
 
 > 1. https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml
 
-> 2. DRAW.IO - Disponível em: https://app.diagrams.net/
+> 2. Serrano, Milene. Arquitetura E Desenho de Software AULA - Modelagem - Diagrama de Pacotes. Nov. 2024.
 
 ## Histórico de Versão
 
@@ -45,4 +45,5 @@ O diagrama foi desenvolvido de acordo com os Frameworks Django para o backend e 
 | 1.0 | 27/11/2024 | Criação do documento e Metodologia |[Caio Sulz](https://github.com/CaioSulz) |  | |
 |1.1|27/11/2024| Complementando o documento |[Harryson](https://github.com/harry-cmartin)|
 | 1.2 | 28/11/2024 | Correção no texto de metodologia |[Caio Sulz](https://github.com/CaioSulz) |
+| 1.3 | 29/11/2024 | Corrigindo Referência bibliográfica | [Fabrício](https://github.com/FabricioDeQueiroz) |
 
