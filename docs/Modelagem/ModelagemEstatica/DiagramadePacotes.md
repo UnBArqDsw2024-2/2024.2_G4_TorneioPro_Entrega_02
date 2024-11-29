@@ -45,5 +45,5 @@ O diagrama foi desenvolvido de acordo com os Frameworks Django para o backend e 
 | 1.0 | 27/11/2024 | Criação do documento e Metodologia |[Caio Sulz](https://github.com/CaioSulz) |  | |
 |1.1|27/11/2024| Complementando o documento |[Harryson](https://github.com/harry-cmartin)|
 | 1.2 | 28/11/2024 | Correção no texto de metodologia |[Caio Sulz](https://github.com/CaioSulz) |
-| 1.3 | 29/11/2024 | Corrigindo Referência bibliográfica | [Fabrício](https://github.com/FabricioDeQueiroz) |
+| 1.3 | 29/11/2024 | Corrigindo Referência bibliográfica | [Fabrício](https://github.com/FabricioDeQueiroz) | [Fabrício](https://github.com/FabricioDeQueiroz), [Gustavo](https://github.com/gustavofbs) e [Oscar](https://github.com/OscarDeBrito)
 
