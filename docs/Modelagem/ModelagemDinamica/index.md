@@ -1,13 +1,14 @@
 # 2.2. Módulo Notação UML – Modelagem Dinâmica
 
-# O que é Modelagem Dinâmica?
+# Modelagem Dinâmica
 
 A **modelagem dinâmica** descreve o comportamento e as interações entre os objetos de um sistema ao longo do tempo. Diferente da modelagem estática, que foca na estrutura, a modelagem dinâmica se concentra nos processos e na troca de informações durante a execução.
 
 ## Diagrama de Atividades: Representando Fluxos e Processos
 
 - **O que é um Diagrama de Atividades?**  
-  O diagrama de atividades é uma representação gráfica que destaca os fluxos de trabalho e processos dentro de um sistema. Ele é amplamente utilizado para modelar casos de uso e atividades complexas.
+
+  O [Diagrama de Atividade](DiagramaDeAtividade.md) é uma representação gráfica que destaca os fluxos de trabalho e processos dentro de um sistema. Ele é amplamente utilizado para modelar casos de uso e atividades complexas.
 
 - **Elementos Comuns:**  
   - Ações e atividades  
@@ -21,7 +22,8 @@ A **modelagem dinâmica** descreve o comportamento e as interações entre os ob
 ## Diagrama de Sequência: Entendendo Interações
 
 - **O que é um Diagrama de Sequência?**  
-  Esse diagrama detalha a troca de mensagens entre os objetos em uma ordem cronológica, ilustrando claramente como a comunicação acontece.
+
+  Esse [Diagrama de Sequência](DiagramaSequencia.md) detalha a troca de mensagens entre os objetos em uma ordem cronológica, ilustrando claramente como a comunicação acontece.
 
 - **Principais Elementos:**  
   - Linhas de vida  
@@ -37,10 +39,6 @@ A **modelagem dinâmica** descreve o comportamento e as interações entre os ob
 - Proporciona uma visão clara do comportamento do sistema.  
 - Auxilia na identificação de possíveis melhorias no fluxo de processos.  
 - Facilita a validação dos requisitos funcionais.
-
-## Considerações Finais
-
-A modelagem dinâmica é indispensável para compreender e projetar o comportamento de sistemas complexos, garantindo eficiência e clareza nos processos.
 
 ## Bibliografia
 

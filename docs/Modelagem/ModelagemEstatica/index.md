@@ -7,7 +7,7 @@ A **modelagem estática** descreve a estrutura e organização de um sistema, fo
 ## Diagrama de Componentes: Representando a Arquitetura Lógica
 
 - **O que é um Diagrama de Componentes?**  
-  Este diagrama descreve a organização e a interconexão dos componentes de software no sistema, destacando como eles interagem.
+  Este [Diagrama de Componentes](componentes.md) descreve a organização e a interconexão dos componentes de software no sistema, destacando como eles interagem.
 
 - **Principais Elementos:**  
   - **Componentes:** Representam partes do sistema, como módulos, bibliotecas ou subsistemas.  
@@ -22,7 +22,8 @@ A **modelagem estática** descreve a estrutura e organização de um sistema, fo
 ## Diagrama de Classes: A Base da Modelagem Estática
 
 - **O que é um Diagrama de Classes?**  
-  O diagrama de classes é a representação mais importante na modelagem estática, detalhando as classes, seus atributos, métodos e os relacionamentos entre elas.
+
+  O [Diagrama de Classe](DiagramadeClasse.md) é a representação mais importante na modelagem estática, detalhando as classes, seus atributos, métodos e os relacionamentos entre elas.
 
 - **Tipos de Relacionamentos Entre Classes:**  
   - **Associação:** Conexão entre duas ou mais classes.  
@@ -37,8 +38,9 @@ A **modelagem estática** descreve a estrutura e organização de um sistema, fo
 
 ## Diagrama de Implantação: Representando a Arquitetura Física
 
-- **O que é um Diagrama de Implantação?**  
-  Representa a disposição física dos componentes do sistema em hardware e infraestrutura de rede, mostrando como eles interagem.
+- **O que é um Diagrama de Implantação?** 
+
+  Nesse [Diagrama de Implantação](DiagramadeImplantacao.md), é representado a disposição física dos componentes do sistema em hardware e infraestrutura de rede, mostrando como eles interagem.
 
 - **Elementos Comuns:**  
   - **Nós:** Representam dispositivos físicos ou virtuais.  
