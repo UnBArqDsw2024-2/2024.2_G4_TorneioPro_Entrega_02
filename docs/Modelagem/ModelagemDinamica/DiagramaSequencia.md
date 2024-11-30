@@ -97,6 +97,22 @@ A equipe optou por produzir Diagramas de Sequência da maioria das funcionalidad
 
 <font size="2"><p style="text-align: center">Autores: [Yan Werlley](https://github.com/YanWerlley) e [Gustavo França](https://github.com/gustavofbs) </p></font>
 
+<br>
+<font size="2"><p style="text-align: center">Figura 10: Diagrama de Sequencia: Gerenciar Time </p></font>
+
+![Diagrama de Sequência - Gerenciar Time](../../Assets/SequenciaGerenciarTime.jpg)
+
+
+<font size="2"><p style="text-align: center">Autores: [Oscar de Brito](https://github.com/OscarDeBrito) </p></font>
+
+<br>
+<font size="2"><p style="text-align: center">Figura 11: Diagrama de Sequencia: Gerenciar Treinador </p></font>
+
+![Diagrama de Sequência - Gerenciar Treinador](../../Assets/SequenciaGerenciarTreinador.jpg)
+
+
+<font size="2"><p style="text-align: center">Autores: [Oscar de Brito](https://github.com/OscarDeBrito) </p></font>
+
 </center>
 
 ## Conclusão
@@ -121,3 +137,4 @@ A equipe optou por produzir Diagramas de Sequência da maioria das funcionalidad
 | 1.7 | 27/11/2024 | Adição da Introdução, Metodologia e Bibliografia | [Fabrício](https://github.com/FabricioDeQueiroz), [Flávio Melo](https://github.com/flavioovatsug) e [Oscar de Brito](https://github.com/OscarDeBrito) |  | |
 | 1.8 | 27/11/2024 | Adição do Diagrama de sequencia: Encerrar Campeonato e Login | [Christian](https://github.com/crstyhs) |  | |
 | 1.9 | 28/11/2024 | Adição do Diagrama de sequencia: Aceitar Solicitação de Jogador | [Yan Werlley](https://github.com/YanWerlley) e [Gustavo França](https://github.com/gustavofbs)|  | |
+| 2.0 | 29/11/2024 | Adição do Diagrama de sequencia: Gerenciar time e Gerenciar Treinador| [Oscar de Brito](https://github.com/OscarDeBrito)|  | |
